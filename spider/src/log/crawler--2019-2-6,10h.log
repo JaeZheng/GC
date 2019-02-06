@@ -1,0 +1,1281 @@
+[2019-02-06 10:12:10.314568] links_requester succeed request()
+[2019-02-06 10:12:10.315567] GOT urls from manager: [
+[2019-02-06 10:12:10.315567] http://www.zazhipu.com/
+[2019-02-06 10:12:10.315567] http://www.cars.com/
+[2019-02-06 10:12:10.315567] http://www.youmi.cn/
+[2019-02-06 10:12:10.315567] http://health.sina.com.cn/
+[2019-02-06 10:12:10.315567] http://bbs.163.com/
+[2019-02-06 10:12:10.315567] https://temai.taobao.com/
+[2019-02-06 10:12:10.315567] http://www.j.xywy.com
+[2019-02-06 10:12:10.316567] https://www.dajie.com/
+[2019-02-06 10:12:10.316567] http://www.paixie.net/
+[2019-02-06 10:12:10.316567] http://www.mipang.com
+[2019-02-06 10:12:10.316567] http://www.dj97.com/
+[2019-02-06 10:12:10.317566] http://www.yuemei.com
+[2019-02-06 10:12:10.317566] http://www.bjguahao.gov.cn
+[2019-02-06 10:12:10.317566] http://www.xinhuanet.com/
+[2019-02-06 10:12:10.317566] https://www.baidu.com/s?word=%E6%B1%BD%E8%BD%A6%E4%BF%9D%E5%85%BB&tn=50000017_hao_pg&ie=utf-8
+[2019-02-06 10:12:10.317566] http://www.kuxun.cn/
+[2019-02-06 10:12:10.317566] http://www.travel.sou.com
+[2019-02-06 10:12:10.317566] http://www.178.com/
+[2019-02-06 10:12:10.317566] http://www.5i5j.com/loading
+[2019-02-06 10:12:10.317566] https://www.alexa.com/topsites
+[2019-02-06 10:12:10.317566] http://tech.sina.com.cn/down/
+[2019-02-06 10:12:10.317566] http://www.ik123.com/
+[2019-02-06 10:12:10.317566] http://www.yododo.com
+[2019-02-06 10:12:10.318568] http://www.ccsdj.com/
+[2019-02-06 10:12:10.318568] http://wallstreetcn.com/
+[2019-02-06 10:12:10.318568] http://www.djkk.com/
+[2019-02-06 10:12:10.318568] http://www.pcgames.com.cn/
+[2019-02-06 10:12:10.318568] http://www.blogchina.com/
+[2019-02-06 10:12:10.318568] http://5sing.kugou.com/index.html
+[2019-02-06 10:12:10.318568] http://player.baidu.com/yingyin.html
+[2019-02-06 10:12:10.318568] https://index.bbs.taobao.com/home.html
+[2019-02-06 10:12:10.318568] http://www.17k.com
+[2019-02-06 10:12:10.318568] http://www.haodf.com
+[2019-02-06 10:12:10.318568] http://news.21cn.com/
+[2019-02-06 10:12:10.318568] http://www.thepaper.cn/
+[2019-02-06 10:12:10.318568] http://www.wiki8.com
+[2019-02-06 10:12:10.318568] http://www.yaofangwang.com
+[2019-02-06 10:12:10.319567] http://guangzhou.anjuke.com/
+[2019-02-06 10:12:10.319567] http://www.nailgalore.my/
+[2019-02-06 10:12:10.319567] http://www.aihuishou.com/
+[2019-02-06 10:12:10.319567] http://www.sanwen.net/
+[2019-02-06 10:12:10.319567] http://www.dahe.cn/
+[2019-02-06 10:12:10.319567] http://www.china.cn
+[2019-02-06 10:12:10.319567] http://www.ly.com/
+[2019-02-06 10:12:10.319567] http://bbs1.people.com.cn/
+[2019-02-06 10:12:10.319567] http://business.sohu.com/
+[2019-02-06 10:12:10.319567] http://www.china.com/
+[2019-02-06 10:12:10.319567] http://www.178.com
+[2019-02-06 10:12:10.319567] http://www.ku6.com/
+[2019-02-06 10:12:10.319567] http://www.99.com.cn
+[2019-02-06 10:12:10.319567] ]
+[2019-02-06 10:12:11.848632] Get response[200]: [http://health.sina.com.cn/]
+[2019-02-06 10:12:11.973626] Get response[200]: [http://www.zazhipu.com/]
+[2019-02-06 10:12:13.586597] Get response[200]: [http://www.youmi.cn/]
+[2019-02-06 10:12:13.610814] Fail to fetch page. Exception: HTTPConnectionPool(host='www.j.xywy.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0A1468B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://www.j.xywy.com]
+[2019-02-06 10:12:13.852426] Get response[200]: [http://www.178.com]
+[2019-02-06 10:12:24.789599] Fail to fetch page. Exception: HTTPConnectionPool(host='www.paixie.net', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0A146D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://www.paixie.net/]
+[2019-02-06 10:12:25.367424] Get response[200]: [http://www.dj97.com/]
+[2019-02-06 10:12:25.534203] Get response[200]: [http://www.mipang.com]
+[2019-02-06 10:12:25.739346] Get response[200]: [http://www.xinhuanet.com/]
+[2019-02-06 10:12:25.847591] Get response[200]: [https://www.dajie.com/]
+[2019-02-06 10:12:26.023016] Fail to fetch page. Exception: HTTPConnectionPool(host='www.travel.sou.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0B9A1EB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://www.travel.sou.com]
+[2019-02-06 10:12:26.283937] Get response[200]: [http://www.178.com/]
+[2019-02-06 10:12:26.318091] Get response[200]: [http://www.ik123.com/]
+[2019-02-06 10:12:26.363224] Get response[200]: [https://www.baidu.com/s?word=%E6%B1%BD%E8%BD%A6%E4%BF%9D%E5%85%BB&tn=50000017_hao_pg&ie=utf-8]
+[2019-02-06 10:12:26.396884] Get response[200]: [http://tech.sina.com.cn/down/]
+[2019-02-06 10:12:26.622979] Get response[200]: [http://www.ccsdj.com/]
+[2019-02-06 10:12:26.904921] Get response[200]: [http://www.pcgames.com.cn/]
+[2019-02-06 10:12:26.964489] Get response[200]: [http://player.baidu.com/yingyin.html]
+[2019-02-06 10:12:27.007693] Get response[200]: [http://www.djkk.com/]
+[2019-02-06 10:12:27.040864] Get response[200]: [http://www.blogchina.com/]
+[2019-02-06 10:12:27.254443] Get response[200]: [http://www.17k.com]
+[2019-02-06 10:12:27.303612] Get response[200]: [http://5sing.kugou.com/index.html]
+[2019-02-06 10:12:27.388552] Get response[200]: [http://news.21cn.com/]
+[2019-02-06 10:12:27.392550] Get response[200]: [http://www.thepaper.cn/]
+[2019-02-06 10:12:27.603905] Get response[200]: [http://guangzhou.anjuke.com/]
+[2019-02-06 10:12:27.607904] Get response[200]: [https://index.bbs.taobao.com/home.html]
+[2019-02-06 10:12:27.675200] Get response[200]: [http://www.wiki8.com]
+[2019-02-06 10:12:28.925223] Get response[200]: [http://www.yododo.com]
+[2019-02-06 10:12:29.126214] Get response[200]: [http://www.ly.com/]
+[2019-02-06 10:12:29.143301] Get response[200]: [http://bbs.163.com/]
+[2019-02-06 10:12:29.322373] Get response[200]: [https://www.alexa.com/topsites]
+[2019-02-06 10:12:29.356370] Get response[200]: [http://www.china.com/]
+[2019-02-06 10:12:29.437667] Get response[200]: [http://business.sohu.com/]
+[2019-02-06 10:12:30.455189] Get response[200]: [http://bbs1.people.com.cn/]
+[2019-02-06 10:12:31.001253] Get response[200]: [http://www.kuxun.cn/]
+[2019-02-06 10:12:31.069252] Get response[200]: [http://www.ku6.com/]
+[2019-02-06 10:12:31.119247] Get response[200]: [http://www.99.com.cn]
+[2019-02-06 10:12:31.125246] Get response[200]: [http://www.yuemei.com]
+[2019-02-06 10:12:31.333234] Get response[200]: [http://www.bjguahao.gov.cn]
+[2019-02-06 10:12:31.405229] Get response[200]: [http://www.sanwen.net/]
+[2019-02-06 10:12:31.440227] Get response[200]: [http://wallstreetcn.com/]
+[2019-02-06 10:12:31.487226] Get response[200]: [http://www.5i5j.com/loading]
+[2019-02-06 10:12:31.528226] Get response[200]: [http://www.dahe.cn/]
+[2019-02-06 10:12:31.621215] Get response[200]: [http://www.yaofangwang.com]
+[2019-02-06 10:12:32.007758] Get response[200]: [https://temai.taobao.com/]
+[2019-02-06 10:12:32.298161] Get response[200]: [http://www.china.cn]
+[2019-02-06 10:12:32.306165] Get response[200]: [http://www.aihuishou.com/]
+[2019-02-06 10:12:32.379883] Fail to fetch page. Exception: HTTPConnectionPool(host='www.cars.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0A133130>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.cars.com/]
+[2019-02-06 10:12:34.594677] Get response[200]: [http://www.nailgalore.my/]
+[2019-02-06 10:12:35.079060] Get response[200]: [http://www.haodf.com]
+[2019-02-06 10:12:35.376042] Finished extract_links()
+[2019-02-06 10:12:36.100015] Finished dump_content()
+[2019-02-06 10:12:36.142012] Finished extract_links()
+[2019-02-06 10:12:36.323421] Finished dump_content()
+[2019-02-06 10:12:36.415418] Finished extract_links()
+[2019-02-06 10:12:36.716398] Finished dump_content()
+[2019-02-06 10:12:36.725396] Finished extract_links()
+[2019-02-06 10:12:36.750395] Finished dump_content()
+[2019-02-06 10:12:36.758393] Finished extract_links()
+[2019-02-06 10:12:36.844498] Finished dump_content()
+[2019-02-06 10:12:36.959489] Finished extract_links()
+[2019-02-06 10:12:37.347463] Finished dump_content()
+[2019-02-06 10:12:37.372461] Finished extract_links()
+[2019-02-06 10:12:37.477455] Finished dump_content()
+[2019-02-06 10:12:37.522453] Finished extract_links()
+[2019-02-06 10:12:37.651444] Finished dump_content()
+[2019-02-06 10:12:37.715442] Finished extract_links()
+[2019-02-06 10:12:38.007422] Finished dump_content()
+[2019-02-06 10:12:38.047417] Finished extract_links()
+[2019-02-06 10:12:38.145412] Finished dump_content()
+[2019-02-06 10:12:38.214410] Finished extract_links()
+[2019-02-06 10:12:38.390482] Finished dump_content()
+[2019-02-06 10:12:38.391481] Finished extract_links()
+[2019-02-06 10:12:38.396478] Finished dump_content()
+[2019-02-06 10:12:38.441478] Finished extract_links()
+[2019-02-06 10:12:38.600466] Finished dump_content()
+[2019-02-06 10:12:38.638465] Finished extract_links()
+[2019-02-06 10:12:38.741459] Finished dump_content()
+[2019-02-06 10:12:38.745458] Finished extract_links()
+[2019-02-06 10:12:38.762459] Finished dump_content()
+[2019-02-06 10:12:38.785461] Finished extract_links()
+[2019-02-06 10:12:38.838452] Finished dump_content()
+[2019-02-06 10:12:38.853450] Finished extract_links()
+[2019-02-06 10:12:38.914446] Finished dump_content()
+[2019-02-06 10:12:38.943445] Finished extract_links()
+[2019-02-06 10:12:39.001442] Finished dump_content()
+[2019-02-06 10:12:39.013441] Finished extract_links()
+[2019-02-06 10:12:39.063438] Finished dump_content()
+[2019-02-06 10:12:39.063438] Finished extract_links()
+[2019-02-06 10:12:39.068439] Finished dump_content()
+[2019-02-06 10:12:39.116433] Finished extract_links()
+[2019-02-06 10:12:39.427416] Finished dump_content()
+[2019-02-06 10:12:39.466413] Finished extract_links()
+[2019-02-06 10:12:39.593411] Finished dump_content()
+[2019-02-06 10:12:39.726396] Finished extract_links()
+[2019-02-06 10:12:40.166370] Finished dump_content()
+[2019-02-06 10:12:40.216364] Finished extract_links()
+[2019-02-06 10:12:40.365357] Finished dump_content()
+[2019-02-06 10:12:40.402353] Finished extract_links()
+[2019-02-06 10:12:40.524349] Finished dump_content()
+[2019-02-06 10:12:40.528349] Finished extract_links()
+[2019-02-06 10:12:40.552345] Finished dump_content()
+[2019-02-06 10:12:40.577346] Finished extract_links()
+[2019-02-06 10:12:40.644343] Finished dump_content()
+[2019-02-06 10:12:40.795329] Finished extract_links()
+[2019-02-06 10:12:41.075311] Finished dump_content()
+[2019-02-06 10:12:41.230302] Finished extract_links()
+[2019-02-06 10:12:41.562283] Exception when dump_content():[(1406, "Data too long for column 'inner_links' at row 1")],url:[http://www.haodf.com]
+[2019-02-06 10:12:41.731272] Finished extract_links()
+[2019-02-06 10:12:41.843267] Finished dump_content()
+[2019-02-06 10:12:41.889264] Finished extract_links()
+[2019-02-06 10:12:42.027252] Finished dump_content()
+[2019-02-06 10:12:42.038254] Finished extract_links()
+[2019-02-06 10:12:42.069250] Finished dump_content()
+[2019-02-06 10:12:42.165245] Finished extract_links()
+[2019-02-06 10:12:42.479224] Finished dump_content()
+[2019-02-06 10:12:42.560221] Finished extract_links()
+[2019-02-06 10:12:42.745362] Finished dump_content()
+[2019-02-06 10:12:42.750362] Finished extract_links()
+[2019-02-06 10:12:42.768447] Finished dump_content()
+[2019-02-06 10:12:42.831443] Finished extract_links()
+[2019-02-06 10:12:43.042430] Finished dump_content()
+[2019-02-06 10:12:43.057430] Finished extract_links()
+[2019-02-06 10:12:43.094428] Finished dump_content()
+[2019-02-06 10:12:43.124427] Finished extract_links()
+[2019-02-06 10:12:43.221421] Finished dump_content()
+[2019-02-06 10:12:43.374412] Finished extract_links()
+[2019-02-06 10:12:43.779386] Finished dump_content()
+[2019-02-06 10:12:43.875380] Finished extract_links()
+[2019-02-06 10:12:44.194359] Finished dump_content()
+[2019-02-06 10:12:44.212359] Finished extract_links()
+[2019-02-06 10:12:44.269355] Finished dump_content()
+[2019-02-06 10:12:44.301352] Finished extract_links()
+[2019-02-06 10:12:44.431345] Finished dump_content()
+[2019-02-06 10:12:44.463345] Finished extract_links()
+[2019-02-06 10:12:44.570335] Finished dump_content()
+[2019-02-06 10:12:44.608332] Finished extract_links()
+[2019-02-06 10:12:44.710328] Finished dump_content()
+[2019-02-06 10:12:44.733328] Finished extract_links()
+[2019-02-06 10:12:44.798319] Finished dump_content()
+[2019-02-06 10:12:44.897316] Finished extract_links()
+[2019-02-06 10:12:45.142302] Finished dump_content()
+[2019-02-06 10:12:45.161297] successfully sent back to the left
+[2019-02-06 10:12:45.162298] GOT urls from manager: [
+[2019-02-06 10:12:45.163300] http://economy.gmw.cn/
+[2019-02-06 10:12:45.163300] http://www.changyou.com
+[2019-02-06 10:12:45.163300] https://www.xin.com/beijing/?channel=a90b199c46286d190734e2211253f513
+[2019-02-06 10:12:45.163300] http://www.ysw.com/
+[2019-02-06 10:12:45.163300] http://www.ijjnews.com/
+[2019-02-06 10:12:45.163300] http://bj.yoher.com/
+[2019-02-06 10:12:45.163300] http://www.9939.com
+[2019-02-06 10:12:45.163300] http://world.gmw.cn/
+[2019-02-06 10:12:45.163300] http://www.babytree.com/
+[2019-02-06 10:12:45.163300] http://www.cnkang.com
+[2019-02-06 10:12:45.163300] http://www.cnr.cn/
+[2019-02-06 10:12:45.163300] http://www.cozycot.com/
+[2019-02-06 10:12:45.163300] http://www.m4.cn/
+[2019-02-06 10:12:45.164298] http://rj.baidu.com/index.html?fxq
+[2019-02-06 10:12:45.164298] http://www.kuxun.cn
+[2019-02-06 10:12:45.164298] http://www.vmall.com
+[2019-02-06 10:12:45.164298] http://www.autohome.com.cn/
+[2019-02-06 10:12:45.164298] http://www.txt99.com/
+[2019-02-06 10:12:45.164298] http://gz.house.ifeng.com/
+[2019-02-06 10:12:45.164298] https://book.douban.com/
+[2019-02-06 10:12:45.164298] http://www.moofeel.com/
+[2019-02-06 10:12:45.164298] https://www.qunar.com/?ex_track=auto_58c11276
+[2019-02-06 10:12:45.164298] http://www.yhd.com
+[2019-02-06 10:12:45.164298] http://www.ctrip.com/
+[2019-02-06 10:12:45.164298] http://www.sjmp3.com/
+[2019-02-06 10:12:45.164298] http://www.120ask.com/
+[2019-02-06 10:12:45.164298] http://www.cjol.com/
+[2019-02-06 10:12:45.165297] http://guba.eastmoney.com/
+[2019-02-06 10:12:45.165297] http://www.qgyyzs.net
+[2019-02-06 10:12:45.165297] http://news.gmw.cn/
+[2019-02-06 10:12:45.165297] http://www.hao123.com/xuexi
+[2019-02-06 10:12:45.165297] http://www.iqshw.com/
+[2019-02-06 10:12:45.165297] http://www.xiaopi.com
+[2019-02-06 10:12:45.165297] http://v.hao123.baidu.com/
+[2019-02-06 10:12:45.165297] http://www.playboy.com/
+[2019-02-06 10:12:45.165297] http://www.mipang.com/
+[2019-02-06 10:12:45.165297] http://www.baicheng.com/
+[2019-02-06 10:12:45.165297] http://qlwb.com.cn/
+[2019-02-06 10:12:45.165297] http://www.familydoctor.com.cn/
+[2019-02-06 10:12:45.165297] http://www.hao123.com/edu
+[2019-02-06 10:12:45.165297] http://www.xs8.cn/
+[2019-02-06 10:12:45.165297] http://edu.51cto.com/
+[2019-02-06 10:12:45.166297] http://tejia.hao123.com/#jrbk
+[2019-02-06 10:12:45.166297] https://yi.baidu.com/
+[2019-02-06 10:12:45.166297] http://www.tingchina.com/
+[2019-02-06 10:12:45.166297] http://money.163.com/
+[2019-02-06 10:12:45.166297] http://pdf-giant.com/
+[2019-02-06 10:12:45.166297] http://www.ynet.com/
+[2019-02-06 10:12:45.166297] http://www.ali213.net/
+[2019-02-06 10:12:45.166297] http://www.guardian.co.uk/
+[2019-02-06 10:12:45.166297] ]
+[2019-02-06 10:12:45.404285] Get response[200]: [http://www.changyou.com]
+[2019-02-06 10:12:45.570273] Get response[200]: [http://economy.gmw.cn/]
+[2019-02-06 10:12:46.050244] Get response[200]: [https://www.xin.com/beijing/?channel=a90b199c46286d190734e2211253f513]
+[2019-02-06 10:12:46.611206] Fail to fetch page. Exception: HTTPConnectionPool(host='www.ysw.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06CE8250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://www.ysw.com/]
+[2019-02-06 10:12:48.541090] Get response[200]: [http://www.ijjnews.com/]
+[2019-02-06 10:12:50.986940] Get response[200]: [http://www.9939.com]
+[2019-02-06 10:12:51.122925] Get response[200]: [http://bj.yoher.com/]
+[2019-02-06 10:12:51.145925] Get response[200]: [http://www.cnkang.com]
+[2019-02-06 10:12:51.181924] Get response[200]: [http://world.gmw.cn/]
+[2019-02-06 10:12:51.217922] Get response[200]: [http://www.cnr.cn/]
+[2019-02-06 10:12:51.280915] Get response[200]: [http://www.babytree.com/]
+[2019-02-06 10:12:53.629770] Get response[200]: [http://www.m4.cn/]
+[2019-02-06 10:12:54.029743] Get response[200]: [http://www.moofeel.com/]
+[2019-02-06 10:12:54.199733] Get response[200]: [http://www.yhd.com]
+[2019-02-06 10:12:54.315729] Get response[200]: [http://www.sjmp3.com/]
+[2019-02-06 10:12:54.397726] Get response[200]: [http://www.cjol.com/]
+[2019-02-06 10:12:54.426721] Get response[200]: [https://book.douban.com/]
+[2019-02-06 10:12:54.485714] Get response[200]: [https://www.qunar.com/?ex_track=auto_58c11276]
+[2019-02-06 10:12:54.543711] Get response[200]: [http://guba.eastmoney.com/]
+[2019-02-06 10:12:54.698709] Get response[200]: [http://news.gmw.cn/]
+[2019-02-06 10:12:54.787699] Get response[200]: [http://www.qgyyzs.net]
+[2019-02-06 10:12:54.841693] Get response[200]: [http://www.hao123.com/xuexi]
+[2019-02-06 10:12:54.991682] Get response[200]: [http://www.xiaopi.com]
+[2019-02-06 10:12:56.720577] Get response[200]: [http://v.hao123.baidu.com/]
+[2019-02-06 10:12:56.825571] Get response[200]: [http://www.familydoctor.com.cn/]
+[2019-02-06 10:12:56.933561] Get response[200]: [http://www.mipang.com/]
+[2019-02-06 10:12:57.041560] Get response[200]: [http://www.hao123.com/edu]
+[2019-02-06 10:12:57.053558] Get response[200]: [http://qlwb.com.cn/]
+[2019-02-06 10:12:57.196547] Get response[200]: [http://www.tingchina.com/]
+[2019-02-06 10:12:57.257543] Get response[200]: [http://edu.51cto.com/]
+[2019-02-06 10:12:57.369538] Get response[200]: [http://money.163.com/]
+[2019-02-06 10:12:57.478526] Get response[200]: [http://tejia.hao123.com/#jrbk]
+[2019-02-06 10:12:58.029495] Get response[200]: [http://www.ali213.net/]
+[2019-02-06 10:12:58.057493] Fail to fetch page. Exception: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), url:[http://pdf-giant.com/]
+[2019-02-06 10:12:58.134490] Get response[200]: [http://www.ynet.com/]
+[2019-02-06 10:12:58.142485] Fail to fetch page. Exception: HTTPSConnectionPool(host='cozycot.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:645)'),)), url:[http://www.cozycot.com/]
+[2019-02-06 10:12:58.253478] Get response[200]: [http://rj.baidu.com/index.html?fxq]
+[2019-02-06 10:12:58.432469] Get response[200]: [http://www.kuxun.cn]
+[2019-02-06 10:12:58.738447] Get response[200]: [http://www.vmall.com]
+[2019-02-06 10:12:58.761448] Get response[200]: [http://www.iqshw.com/]
+[2019-02-06 10:12:58.768446] Get response[200]: [http://gz.house.ifeng.com/]
+[2019-02-06 10:12:58.801443] Get response[200]: [http://www.ctrip.com/]
+[2019-02-06 10:12:59.005434] Get response[200]: [http://www.120ask.com/]
+[2019-02-06 10:12:59.064429] Get response[200]: [http://www.xs8.cn/]
+[2019-02-06 10:12:59.085429] Get response[200]: [http://www.baicheng.com/]
+[2019-02-06 10:12:59.095427] Get response[200]: [http://www.autohome.com.cn/]
+[2019-02-06 10:12:59.207422] Get response[200]: [http://www.txt99.com/]
+[2019-02-06 10:13:00.010370] Get response[200]: [http://www.playboy.com/]
+[2019-02-06 10:13:04.286689] Get response[500]: [https://yi.baidu.com/]
+[2019-02-06 10:13:18.793366] Fail to fetch page. Exception: HTTPConnectionPool(host='www.guardian.co.uk', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041EDA10>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.guardian.co.uk/]
+[2019-02-06 10:13:18.807366] Finished extract_links()
+[2019-02-06 10:13:18.859363] Finished dump_content()
+[2019-02-06 10:13:18.862362] Finished extract_links()
+[2019-02-06 10:13:18.875362] Finished dump_content()
+[2019-02-06 10:13:18.902363] Finished extract_links()
+[2019-02-06 10:13:18.965357] Finished dump_content()
+[2019-02-06 10:13:19.005355] Finished extract_links()
+[2019-02-06 10:13:19.109347] Finished dump_content()
+[2019-02-06 10:13:19.130348] Finished extract_links()
+[2019-02-06 10:13:19.168342] Finished dump_content()
+[2019-02-06 10:13:19.234340] Finished extract_links()
+[2019-02-06 10:13:19.415329] Finished dump_content()
+[2019-02-06 10:13:19.459327] Finished extract_links()
+[2019-02-06 10:13:19.660312] Finished dump_content()
+[2019-02-06 10:13:19.704310] Finished extract_links()
+[2019-02-06 10:13:19.825306] Finished dump_content()
+[2019-02-06 10:13:19.916298] Finished extract_links()
+[2019-02-06 10:13:20.099287] Finished dump_content()
+[2019-02-06 10:13:20.137284] Finished extract_links()
+[2019-02-06 10:13:20.296274] Finished dump_content()
+[2019-02-06 10:13:20.342271] Finished extract_links()
+[2019-02-06 10:13:20.564258] Finished dump_content()
+[2019-02-06 10:13:20.567257] Finished extract_links()
+[2019-02-06 10:13:20.586256] Finished dump_content()
+[2019-02-06 10:13:20.620255] Finished extract_links()
+[2019-02-06 10:13:20.814243] Finished dump_content()
+[2019-02-06 10:13:20.923239] Finished extract_links()
+[2019-02-06 10:13:21.239214] Finished dump_content()
+[2019-02-06 10:13:21.392204] Finished extract_links()
+[2019-02-06 10:13:22.074301] Finished dump_content()
+[2019-02-06 10:13:22.095298] Finished extract_links()
+[2019-02-06 10:13:22.146296] Finished dump_content()
+[2019-02-06 10:13:22.173297] Finished extract_links()
+[2019-02-06 10:13:22.273290] Finished dump_content()
+[2019-02-06 10:13:22.311287] Finished extract_links()
+[2019-02-06 10:13:22.460357] Finished dump_content()
+[2019-02-06 10:13:22.487355] Finished extract_links()
+[2019-02-06 10:13:22.548351] Finished dump_content()
+[2019-02-06 10:13:22.589348] Finished extract_links()
+[2019-02-06 10:13:22.706341] Finished dump_content()
+[2019-02-06 10:13:22.724339] Finished extract_links()
+[2019-02-06 10:13:22.775337] Finished dump_content()
+[2019-02-06 10:13:22.916330] Finished extract_links()
+[2019-02-06 10:13:23.337437] Finished dump_content()
+[2019-02-06 10:13:23.351434] Finished extract_links()
+[2019-02-06 10:13:23.379433] Finished dump_content()
+[2019-02-06 10:13:23.466427] Finished extract_links()
+[2019-02-06 10:13:23.656415] Finished dump_content()
+[2019-02-06 10:13:23.669414] Finished extract_links()
+[2019-02-06 10:13:23.951296] Finished dump_content()
+[2019-02-06 10:13:23.995290] Finished extract_links()
+[2019-02-06 10:13:24.113281] Finished dump_content()
+[2019-02-06 10:13:24.245273] Finished extract_links()
+[2019-02-06 10:13:24.481257] Finished dump_content()
+[2019-02-06 10:13:24.506260] Finished extract_links()
+[2019-02-06 10:13:24.586252] Finished dump_content()
+[2019-02-06 10:13:24.634249] Finished extract_links()
+[2019-02-06 10:13:24.744243] Finished dump_content()
+[2019-02-06 10:13:24.781239] Finished extract_links()
+[2019-02-06 10:13:24.905358] Finished dump_content()
+[2019-02-06 10:13:24.958355] Finished extract_links()
+[2019-02-06 10:13:25.119344] Finished dump_content()
+[2019-02-06 10:13:25.144342] Finished extract_links()
+[2019-02-06 10:13:25.233338] Finished dump_content()
+[2019-02-06 10:13:25.252336] Finished extract_links()
+[2019-02-06 10:13:25.309530] Finished dump_content()
+[2019-02-06 10:13:25.332528] Finished extract_links()
+[2019-02-06 10:13:25.382526] Finished dump_content()
+[2019-02-06 10:13:25.412525] Finished extract_links()
+[2019-02-06 10:13:25.553515] Finished dump_content()
+[2019-02-06 10:13:25.607512] Finished extract_links()
+[2019-02-06 10:13:25.774501] Finished dump_content()
+[2019-02-06 10:13:25.942493] Finished extract_links()
+[2019-02-06 10:13:26.486460] Exception when dump_content():[(1406, "Data too long for column 'outer_links' at row 1")],url:[http://www.familydoctor.com.cn/]
+[2019-02-06 10:13:26.514456] Finished extract_links()
+[2019-02-06 10:13:26.564454] Finished dump_content()
+[2019-02-06 10:13:26.619451] Finished extract_links()
+[2019-02-06 10:13:26.887433] Finished dump_content()
+[2019-02-06 10:13:27.027425] Finished extract_links()
+[2019-02-06 10:13:27.429399] Finished dump_content()
+[2019-02-06 10:13:27.459399] Finished extract_links()
+[2019-02-06 10:13:27.537390] Finished dump_content()
+[2019-02-06 10:13:27.569389] Finished extract_links()
+[2019-02-06 10:13:27.663381] Finished dump_content()
+[2019-02-06 10:13:27.755377] Finished extract_links()
+[2019-02-06 10:13:27.995362] Finished dump_content()
+[2019-02-06 10:13:28.021362] Finished extract_links()
+[2019-02-06 10:13:28.085449] Finished dump_content()
+[2019-02-06 10:13:28.282435] Finished extract_links()
+[2019-02-06 10:13:28.826641] Finished dump_content()
+[2019-02-06 10:13:28.848641] successfully sent back to the left
+[2019-02-06 10:13:28.849642] GOT urls from manager: [
+[2019-02-06 10:13:28.849642] http://www.jszg.edu.cn/portal/home/index
+[2019-02-06 10:13:28.849642] http://xxsy.net/
+[2019-02-06 10:13:28.850642] http://edu.baidu.com/
+[2019-02-06 10:13:28.850642] https://www.suning.com/?utm_source=hao123&utm_medium=mingzhan
+[2019-02-06 10:13:28.850642] http://58.com/
+[2019-02-06 10:13:28.850642] http://www.biomart.cn
+[2019-02-06 10:13:28.850642] http://www.lvping.com/
+[2019-02-06 10:13:28.850642] http://www.99danji.com
+[2019-02-06 10:13:28.850642] https://music.douban.com/
+[2019-02-06 10:13:28.850642] http://district.ce.cn/
+[2019-02-06 10:13:28.850642] https://www.lagou.com/
+[2019-02-06 10:13:28.850642] http://www.gmw.cn/
+[2019-02-06 10:13:28.850642] http://www.egou.com
+[2019-02-06 10:13:28.850642] http://www.docin.com/
+[2019-02-06 10:13:28.850642] http://www.youku.com/
+[2019-02-06 10:13:28.850642] http://www.chexun.com/
+[2019-02-06 10:13:28.850642] https://www.bilibili.com/
+[2019-02-06 10:13:28.851643] http://www.sasa.com/
+[2019-02-06 10:13:28.851643] http://www.dangdang.com/
+[2019-02-06 10:13:28.851643] http://www.cnet.com/
+[2019-02-06 10:13:28.851643] http://www.ftv.com/
+[2019-02-06 10:13:28.851643] http://www.ipanda.com/
+[2019-02-06 10:13:28.851643] http://www.lagou.com/
+[2019-02-06 10:13:28.851643] http://www.zhihuangjin.com/
+[2019-02-06 10:13:28.851643] http://www.eeyy.com
+[2019-02-06 10:13:28.851643] http://www.cn-healthcare.com/
+[2019-02-06 10:13:28.851643] http://g.wanfangdata.com.cn/
+[2019-02-06 10:13:28.851643] http://www.suning.com
+[2019-02-06 10:13:28.851643] http://ai.taobao.com/
+[2019-02-06 10:13:28.851643] http://www.sbs.co.kr/
+[2019-02-06 10:13:28.852638] http://www.universalmusic.com/
+[2019-02-06 10:13:28.852638] https://tuijian.hao123.com/?type=rec
+[2019-02-06 10:13:28.852638] http://www.v1.cn/
+[2019-02-06 10:13:28.852638] http://www.zhcw.com/
+[2019-02-06 10:13:28.852638] http://video.baidu.com/
+[2019-02-06 10:13:28.852638] http://auto.qq.com/
+[2019-02-06 10:13:28.852638] http://www.cscse.edu.cn/publish/portal0/
+[2019-02-06 10:13:28.852638] https://www.liepin.com/event/landingpage/search_salary/?mscid=t_d_028
+[2019-02-06 10:13:28.852638] http://www.qdmm.com/Default.aspx
+[2019-02-06 10:13:28.852638] http://www.qyer.com
+[2019-02-06 10:13:28.852638] http://music.163.com/
+[2019-02-06 10:13:28.852638] http://www.pharmnet.com.cn/
+[2019-02-06 10:13:28.852638] http://v.ifeng.com/
+[2019-02-06 10:13:28.852638] http://www.heiyan.com/
+[2019-02-06 10:13:28.853637] http://image.baidu.com/
+[2019-02-06 10:13:28.853637] https://www.benlai.com/
+[2019-02-06 10:13:28.853637] http://www.hao123.com/exam
+[2019-02-06 10:13:28.853637] http://www.xinhuanet.com/health/
+[2019-02-06 10:13:28.853637] http://www.abconline.de/
+[2019-02-06 10:13:28.853637] http://www.cf.qq.com
+[2019-02-06 10:13:28.853637] ]
+[2019-02-06 10:13:29.441607] Fail to fetch page. Exception: HTTPConnectionPool(host='www.lvping.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0A121D10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://www.lvping.com/]
+[2019-02-06 10:13:29.499598] Get response[200]: [https://www.suning.com/?utm_source=hao123&utm_medium=mingzhan]
+[2019-02-06 10:13:29.637593] Get response[200]: [http://www.99danji.com]
+[2019-02-06 10:13:29.764584] Get response[200]: [http://district.ce.cn/]
+[2019-02-06 10:13:29.971573] Get response[200]: [http://www.gmw.cn/]
+[2019-02-06 10:13:30.104564] Get response[200]: [http://www.egou.com]
+[2019-02-06 10:13:30.235556] Get response[200]: [http://www.chexun.com/]
+[2019-02-06 10:13:30.354546] Get response[200]: [http://www.sasa.com/]
+[2019-02-06 10:13:30.415540] Get response[200]: [http://www.youku.com/]
+[2019-02-06 10:13:30.528536] Get response[200]: [https://www.lagou.com/]
+[2019-02-06 10:13:30.590531] Get response[200]: [https://music.douban.com/]
+[2019-02-06 10:13:30.643527] Get response[200]: [https://www.bilibili.com/]
+[2019-02-06 10:13:30.664526] Get response[200]: [http://www.dangdang.com/]
+[2019-02-06 10:13:30.910511] Get response[200]: [http://www.eeyy.com]
+[2019-02-06 10:13:30.918512] Get response[200]: [http://www.ipanda.com/]
+[2019-02-06 10:13:30.961509] Get response[200]: [http://www.suning.com]
+[2019-02-06 10:13:31.555476] Get response[200]: [http://ai.taobao.com/]
+[2019-02-06 10:13:31.713461] Get response[200]: [http://www.sbs.co.kr/]
+[2019-02-06 10:13:31.798457] Get response[200]: [http://www.zhcw.com/]
+[2019-02-06 10:13:31.803459] Get response[200]: [http://www.v1.cn/]
+[2019-02-06 10:13:32.132435] Get response[200]: [http://auto.qq.com/]
+[2019-02-06 10:13:32.135433] Get response[200]: [http://www.cscse.edu.cn/publish/portal0/]
+[2019-02-06 10:13:32.161437] Get response[200]: [https://tuijian.hao123.com/?type=rec]
+[2019-02-06 10:13:32.189433] Get response[200]: [http://video.baidu.com/]
+[2019-02-06 10:13:32.358425] Get response[200]: [http://v.ifeng.com/]
+[2019-02-06 10:13:32.380421] Get response[200]: [http://www.pharmnet.com.cn/]
+[2019-02-06 10:13:32.422419] Get response[200]: [https://www.liepin.com/event/landingpage/search_salary/?mscid=t_d_028]
+[2019-02-06 10:13:32.542413] Get response[200]: [http://image.baidu.com/]
+[2019-02-06 10:13:32.563409] Get response[200]: [http://www.heiyan.com/]
+[2019-02-06 10:13:32.695399] Get response[200]: [http://www.hao123.com/exam]
+[2019-02-06 10:13:33.153372] Get response[200]: [https://www.benlai.com/]
+[2019-02-06 10:13:33.756332] Fail to fetch page. Exception: HTTPConnectionPool(host='www.cf.qq.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0B9B18F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://www.cf.qq.com]
+[2019-02-06 10:13:33.904325] Get response[200]: [http://edu.baidu.com/]
+[2019-02-06 10:13:34.090313] Get response[200]: [http://58.com/]
+[2019-02-06 10:13:34.404295] Get response[200]: [http://www.biomart.cn]
+[2019-02-06 10:13:34.484288] Get response[200]: [http://www.cn-healthcare.com/]
+[2019-02-06 10:13:34.532287] Get response[200]: [http://www.docin.com/]
+[2019-02-06 10:13:34.660278] Get response[200]: [http://www.lagou.com/]
+[2019-02-06 10:13:34.680278] Get response[200]: [http://www.xinhuanet.com/health/]
+[2019-02-06 10:13:35.815205] Get response[200]: [http://www.universalmusic.com/]
+[2019-02-06 10:13:36.022192] Get response[200]: [http://www.qyer.com]
+[2019-02-06 10:13:36.028193] Get response[200]: [http://music.163.com/]
+[2019-02-06 10:13:36.113186] Get response[200]: [http://www.qdmm.com/Default.aspx]
+[2019-02-06 10:13:39.957038] Get response[404]: [http://g.wanfangdata.com.cn/]
+[2019-02-06 10:13:39.969037] Get response[500]: [http://www.jszg.edu.cn/portal/home/index]
+[2019-02-06 10:13:50.255099] Get response[200]: [http://www.abconline.de/]
+[2019-02-06 10:13:51.491024] Fail to fetch page. Exception: HTTPConnectionPool(host='www.cnet.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0B9EEC70>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.cnet.com/]
+[2019-02-06 10:13:51.626015] Fail to fetch page. Exception: HTTPConnectionPool(host='www.zhihuangjin.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06CC8CD0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.zhihuangjin.com/]
+[2019-02-06 10:14:20.752793] Fail to fetch page. Exception: HTTPSConnectionPool(host='www.fashiontv.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)'),)), url:[http://www.ftv.com/]
+[2019-02-06 10:15:29.367618] Fail to fetch page. Exception: HTTPConnectionPool(host='xxsy.net', port=80): Read timed out. (read timeout=120), url:[http://xxsy.net/]
+[2019-02-06 10:15:29.372618] Finished extract_links()
+[2019-02-06 10:15:29.388744] Finished dump_content()
+[2019-02-06 10:15:29.429742] Finished extract_links()
+[2019-02-06 10:15:29.567733] Finished dump_content()
+[2019-02-06 10:15:29.623730] Finished extract_links()
+[2019-02-06 10:15:29.721011] Finished dump_content()
+[2019-02-06 10:15:29.798006] Finished extract_links()
+[2019-02-06 10:15:30.047098] Finished dump_content()
+[2019-02-06 10:15:30.123093] Finished extract_links()
+[2019-02-06 10:15:30.296081] Finished dump_content()
+[2019-02-06 10:15:30.312081] Finished extract_links()
+[2019-02-06 10:15:30.357077] Finished dump_content()
+[2019-02-06 10:15:30.379078] Finished extract_links()
+[2019-02-06 10:15:30.440246] Finished dump_content()
+[2019-02-06 10:15:30.515240] Finished extract_links()
+[2019-02-06 10:15:30.802223] Finished dump_content()
+[2019-02-06 10:15:30.854219] Finished extract_links()
+[2019-02-06 10:15:30.992211] Finished dump_content()
+[2019-02-06 10:15:31.021209] Finished extract_links()
+[2019-02-06 10:15:31.109316] Finished dump_content()
+[2019-02-06 10:15:31.443469] Finished extract_links()
+[2019-02-06 10:15:32.243516] Exception when dump_content():[(1366, "Incorrect string value: '\\xF0\\x9F\\x98\\x84\\x0A ...' for column 'text' at row 1")],url:[http://www.youku.com/]
+[2019-02-06 10:15:32.342508] Finished extract_links()
+[2019-02-06 10:15:32.653488] Finished dump_content()
+[2019-02-06 10:15:32.668484] Finished extract_links()
+[2019-02-06 10:15:32.754481] Finished dump_content()
+[2019-02-06 10:15:32.775479] Finished extract_links()
+[2019-02-06 10:15:32.832476] Finished dump_content()
+[2019-02-06 10:15:32.864475] Finished extract_links()
+[2019-02-06 10:15:32.973567] Finished dump_content()
+[2019-02-06 10:15:32.994567] Finished extract_links()
+[2019-02-06 10:15:33.078677] Finished dump_content()
+[2019-02-06 10:15:33.152674] Finished extract_links()
+[2019-02-06 10:15:33.437655] Finished dump_content()
+[2019-02-06 10:15:33.525650] Finished extract_links()
+[2019-02-06 10:15:33.771633] Finished dump_content()
+[2019-02-06 10:15:33.816631] Finished extract_links()
+[2019-02-06 10:15:34.028620] Finished dump_content()
+[2019-02-06 10:15:34.073618] Finished extract_links()
+[2019-02-06 10:15:34.247607] Finished dump_content()
+[2019-02-06 10:15:34.454593] Finished extract_links()
+[2019-02-06 10:15:35.020556] Exception when dump_content():[(1406, "Data too long for column 'inner_links' at row 1")],url:[http://ai.taobao.com/]
+[2019-02-06 10:15:35.031557] Finished extract_links()
+[2019-02-06 10:15:35.087553] Finished dump_content()
+[2019-02-06 10:15:35.088555] Finished extract_links()
+[2019-02-06 10:15:35.094549] Finished dump_content()
+[2019-02-06 10:15:35.109550] Finished extract_links()
+[2019-02-06 10:15:35.170741] Finished dump_content()
+[2019-02-06 10:15:35.201740] Finished extract_links()
+[2019-02-06 10:15:35.291733] Finished dump_content()
+[2019-02-06 10:15:35.347730] Finished extract_links()
+[2019-02-06 10:15:35.499721] Finished dump_content()
+[2019-02-06 10:15:35.558718] Finished extract_links()
+[2019-02-06 10:15:35.728705] Finished dump_content()
+[2019-02-06 10:15:36.295669] Finished extract_links()
+[2019-02-06 10:15:38.675988] Finished dump_content()
+[2019-02-06 10:15:38.723983] Finished extract_links()
+[2019-02-06 10:15:38.887972] Finished dump_content()
+[2019-02-06 10:15:38.889973] Finished extract_links()
+[2019-02-06 10:15:38.920970] Finished dump_content()
+[2019-02-06 10:15:38.973968] Finished extract_links()
+[2019-02-06 10:15:39.112958] Finished dump_content()
+[2019-02-06 10:15:39.135957] Finished extract_links()
+[2019-02-06 10:15:39.242951] Finished dump_content()
+[2019-02-06 10:15:39.273949] Finished extract_links()
+[2019-02-06 10:15:39.374120] Finished dump_content()
+[2019-02-06 10:15:39.421119] Finished extract_links()
+[2019-02-06 10:15:39.549108] Finished dump_content()
+[2019-02-06 10:15:39.584106] Finished extract_links()
+[2019-02-06 10:15:39.714099] Finished dump_content()
+[2019-02-06 10:15:39.762097] Finished extract_links()
+[2019-02-06 10:15:39.872088] Finished dump_content()
+[2019-02-06 10:15:39.880088] Finished extract_links()
+[2019-02-06 10:15:39.928090] Finished dump_content()
+[2019-02-06 10:15:39.984082] Finished extract_links()
+[2019-02-06 10:15:40.188071] Finished dump_content()
+[2019-02-06 10:15:40.228067] Finished extract_links()
+[2019-02-06 10:15:40.337062] Finished dump_content()
+[2019-02-06 10:15:40.472052] Finished extract_links()
+[2019-02-06 10:15:40.926023] Finished dump_content()
+[2019-02-06 10:15:40.943022] Finished extract_links()
+[2019-02-06 10:15:41.001019] Finished dump_content()
+[2019-02-06 10:15:41.021019] successfully sent back to the left
+[2019-02-06 10:15:42.155946] links_requester succeed request()
+[2019-02-06 10:15:42.156949] GOT urls from manager: [
+[2019-02-06 10:15:42.156949] http://www.ikang.com/
+[2019-02-06 10:15:42.156949] http://www.hao123.com/sports
+[2019-02-06 10:15:42.156949] http://www.cnys.com/
+[2019-02-06 10:15:42.156949] http://www.tuan800.com
+[2019-02-06 10:15:42.156949] http://tech.china.com/
+[2019-02-06 10:15:42.156949] http://hongshu.com/
+[2019-02-06 10:15:42.156949] http://economy.china.com/
+[2019-02-06 10:15:42.156949] http://www.newssc.org/
+[2019-02-06 10:15:42.156949] https://go.hao123.com/?tn=kuzhan1
+[2019-02-06 10:15:42.156949] http://www.zasv.net/
+[2019-02-06 10:15:42.156949] http://www.gmarket.co.kr/
+[2019-02-06 10:15:42.157943] http://www.cri.cn/
+[2019-02-06 10:15:42.157943] http://www.qnwz.cn/index.html
+[2019-02-06 10:15:42.157943] http://medline.com/
+[2019-02-06 10:15:42.157943] http://bbs.tiexue.net/default.htm
+[2019-02-06 10:15:42.157943] http://www.120ask.com
+[2019-02-06 10:15:42.157943] http://www.obgy.cn/
+[2019-02-06 10:15:42.157943] http://forum.home.news.cn/
+[2019-02-06 10:15:42.157943] http://www.jobcn.com/
+[2019-02-06 10:15:42.157943] http://www.bioon.com/
+[2019-02-06 10:15:42.157943] http://www.jianshu.com/
+[2019-02-06 10:15:42.157943] http://www.9tour.cn
+[2019-02-06 10:15:42.157943] http://www.trip.taobao.com
+[2019-02-06 10:15:42.157943] http://tech.ifeng.com/
+[2019-02-06 10:15:42.157943] http://www.hongshu.com/
+[2019-02-06 10:15:42.157943] http://www.facebook.com/
+[2019-02-06 10:15:42.158944] http://www.nfcmag.com/
+[2019-02-06 10:15:42.158944] http://gouwu.hao123.com/?tn=kuzhan2
+[2019-02-06 10:15:42.158944] http://www.nhfpc.gov.cn/
+[2019-02-06 10:15:42.158944] http://www.baike.com/
+[2019-02-06 10:15:42.158944] http://www.sgcarmart.com/
+[2019-02-06 10:15:42.158944] http://www.zhiyin.cn/
+[2019-02-06 10:15:42.158944] http://www.sporttery.cn/
+[2019-02-06 10:15:42.158944] http://gz.lianjia.com/
+[2019-02-06 10:15:42.158944] http://freexs.cn/
+[2019-02-06 10:15:42.158944] http://digi.163.com/
+[2019-02-06 10:15:42.158944] http://www.huya.com
+[2019-02-06 10:15:42.158944] http://www.hao123.com/mail
+[2019-02-06 10:15:42.158944] http://club.china.com/
+[2019-02-06 10:15:42.158944] http://www.chinatimes.cc/
+[2019-02-06 10:15:42.159944] http://www.gome.com.cn/
+[2019-02-06 10:15:42.159944] https://www.qunar.com/
+[2019-02-06 10:15:42.159944] http://news.dzwww.com/
+[2019-02-06 10:15:42.159944] http://dl.pconline.com.cn/
+[2019-02-06 10:15:42.159944] http://www.zaih.com/
+[2019-02-06 10:15:42.159944] http://military.china.com/
+[2019-02-06 10:15:42.159944] http://sports.sina.com.cn/
+[2019-02-06 10:15:42.159944] http://baike.so.com/
+[2019-02-06 10:15:42.159944] http://www.chicagochinaren.com/
+[2019-02-06 10:15:42.159944] http://youxi.baidu.com/
+[2019-02-06 10:15:42.159944] ]
+[2019-02-06 10:15:42.592918] Get response[200]: [http://www.cnys.com/]
+[2019-02-06 10:15:42.676916] Get response[200]: [http://www.hao123.com/sports]
+[2019-02-06 10:15:44.875775] Get response[200]: [http://www.newssc.org/]
+[2019-02-06 10:15:44.937777] Get response[200]: [http://www.cri.cn/]
+[2019-02-06 10:15:44.978771] Get response[200]: [http://www.gmarket.co.kr/]
+[2019-02-06 10:15:45.441740] Get response[200]: [https://go.hao123.com/?tn=kuzhan1]
+[2019-02-06 10:15:45.466740] Get response[200]: [http://www.zasv.net/]
+[2019-02-06 10:15:46.879652] Get response[200]: [http://bbs.tiexue.net/default.htm]
+[2019-02-06 10:15:47.044641] Get response[200]: [http://www.obgy.cn/]
+[2019-02-06 10:15:47.244629] Get response[200]: [http://www.bioon.com/]
+[2019-02-06 10:15:47.309627] Fail to fetch page. Exception: HTTPConnectionPool(host='www.trip.taobao.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06CC8E10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://www.trip.taobao.com]
+[2019-02-06 10:15:47.493612] Get response[200]: [http://tech.ifeng.com/]
+[2019-02-06 10:15:47.566608] Get response[200]: [http://www.9tour.cn]
+[2019-02-06 10:15:47.726598] Get response[200]: [http://www.nfcmag.com/]
+[2019-02-06 10:15:47.903588] Get response[200]: [http://gouwu.hao123.com/?tn=kuzhan2]
+[2019-02-06 10:15:47.943587] Get response[200]: [http://www.baike.com/]
+[2019-02-06 10:15:48.013582] Fail to fetch page. Exception: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), url:[http://www.zhiyin.cn/]
+[2019-02-06 10:15:49.791470] Fail to fetch page. Exception: HTTPConnectionPool(host='freexs.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06CBA430>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://freexs.cn/]
+[2019-02-06 10:15:50.034454] Get response[200]: [http://www.huya.com]
+[2019-02-06 10:15:50.115450] Fail to fetch page. Exception: HTTPConnectionPool(host='club.china.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0B9B1530>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://club.china.com/]
+[2019-02-06 10:15:50.223440] Get response[200]: [http://digi.163.com/]
+[2019-02-06 10:15:50.242441] Get response[200]: [http://forum.home.news.cn/]
+[2019-02-06 10:15:50.314437] Get response[200]: [http://www.hao123.com/mail]
+[2019-02-06 10:15:51.613353] Get response[200]: [http://news.dzwww.com/]
+[2019-02-06 10:15:51.858340] Get response[200]: [http://www.ikang.com/]
+[2019-02-06 10:15:51.921334] Get response[200]: [http://www.zaih.com/]
+[2019-02-06 10:15:52.027330] Get response[200]: [https://www.qunar.com/]
+[2019-02-06 10:15:53.665226] Get response[200]: [http://sports.sina.com.cn/]
+[2019-02-06 10:15:54.080200] Get response[200]: [http://youxi.baidu.com/]
+[2019-02-06 10:15:54.394305] Get response[200]: [http://tech.china.com/]
+[2019-02-06 10:15:54.455302] Get response[200]: [http://economy.china.com/]
+[2019-02-06 10:15:54.618297] Get response[200]: [http://www.jobcn.com/]
+[2019-02-06 10:15:54.766284] Get response[200]: [http://www.120ask.com]
+[2019-02-06 10:15:54.802282] Get response[200]: [http://www.jianshu.com/]
+[2019-02-06 10:15:55.768223] Get response[200]: [http://www.nhfpc.gov.cn/]
+[2019-02-06 10:15:55.970208] Get response[200]: [http://www.chinatimes.cc/]
+[2019-02-06 10:15:56.051205] Get response[200]: [http://www.hongshu.com/]
+[2019-02-06 10:15:56.173196] Get response[200]: [http://www.gome.com.cn/]
+[2019-02-06 10:15:56.215194] Get response[200]: [http://gz.lianjia.com/]
+[2019-02-06 10:15:56.241194] Get response[200]: [http://dl.pconline.com.cn/]
+[2019-02-06 10:15:57.786094] Get response[200]: [http://military.china.com/]
+[2019-02-06 10:15:58.040082] Get response[200]: [http://baike.so.com/]
+[2019-02-06 10:15:58.117075] Get response[200]: [http://hongshu.com/]
+[2019-02-06 10:16:00.295938] Get response[200]: [http://www.chicagochinaren.com/]
+[2019-02-06 10:16:02.480800] Get response[200]: [http://www.sgcarmart.com/]
+[2019-02-06 10:16:04.141697] Get response[403]: [http://www.tuan800.com]
+[2019-02-06 10:16:05.831589] Fail to fetch page. Exception: HTTPConnectionPool(host='www.qnwz.cn', port=80): Max retries exceeded with url: /index.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0B9C0B10>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.qnwz.cn/index.html]
+[2019-02-06 10:16:08.454426] Fail to fetch page. Exception: HTTPConnectionPool(host='www.facebook.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0A113D10>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.facebook.com/]
+[2019-02-06 10:16:08.773406] Fail to fetch page. Exception: HTTPConnectionPool(host='www.sporttery.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06CE8530>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.sporttery.cn/]
+[2019-02-06 10:16:17.319936] Fail to fetch page. Exception: HTTPSConnectionPool(host='www.medline.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:645)'),)), url:[http://medline.com/]
+[2019-02-06 10:16:17.348935] Finished extract_links()
+[2019-02-06 10:16:17.448928] Finished dump_content()
+[2019-02-06 10:16:17.500924] Finished extract_links()
+[2019-02-06 10:16:17.716912] Finished dump_content()
+[2019-02-06 10:16:17.725909] Finished extract_links()
+[2019-02-06 10:16:17.753911] Finished dump_content()
+[2019-02-06 10:16:17.793907] Finished extract_links()
+[2019-02-06 10:16:17.903898] Finished dump_content()
+[2019-02-06 10:16:17.965993] Finished extract_links()
+[2019-02-06 10:16:18.145171] Finished dump_content()
+[2019-02-06 10:16:18.194168] Finished extract_links()
+[2019-02-06 10:16:18.428154] Finished dump_content()
+[2019-02-06 10:16:18.466154] Finished extract_links()
+[2019-02-06 10:16:18.570145] Finished dump_content()
+[2019-02-06 10:16:18.676141] Finished extract_links()
+[2019-02-06 10:16:18.967251] Finished dump_content()
+[2019-02-06 10:16:18.993247] Finished extract_links()
+[2019-02-06 10:16:19.070359] Finished dump_content()
+[2019-02-06 10:16:19.175938] Finished extract_links()
+[2019-02-06 10:16:19.260041] Finished dump_content()
+[2019-02-06 10:16:19.312038] Finished extract_links()
+[2019-02-06 10:16:19.437029] Finished dump_content()
+[2019-02-06 10:16:19.456029] Finished extract_links()
+[2019-02-06 10:16:19.512025] Finished dump_content()
+[2019-02-06 10:16:19.603017] Finished extract_links()
+[2019-02-06 10:16:19.793091] Finished dump_content()
+[2019-02-06 10:16:19.808091] Finished extract_links()
+[2019-02-06 10:16:19.869087] Finished dump_content()
+[2019-02-06 10:16:19.908084] Finished extract_links()
+[2019-02-06 10:16:20.006079] Finished dump_content()
+[2019-02-06 10:16:20.025077] Finished extract_links()
+[2019-02-06 10:16:20.091074] Finished dump_content()
+[2019-02-06 10:16:20.126070] Finished extract_links()
+[2019-02-06 10:16:20.210066] Finished dump_content()
+[2019-02-06 10:16:20.216065] Finished extract_links()
+[2019-02-06 10:16:20.241062] Finished dump_content()
+[2019-02-06 10:16:20.333059] Finished extract_links()
+[2019-02-06 10:16:20.578045] Finished dump_content()
+[2019-02-06 10:16:20.583041] Finished extract_links()
+[2019-02-06 10:16:20.628039] Finished dump_content()
+[2019-02-06 10:16:20.690036] Finished extract_links()
+[2019-02-06 10:16:20.865025] Finished dump_content()
+[2019-02-06 10:16:20.880024] Finished extract_links()
+[2019-02-06 10:16:20.923022] Finished dump_content()
+[2019-02-06 10:16:20.958021] Finished extract_links()
+[2019-02-06 10:16:21.053012] Finished dump_content()
+[2019-02-06 10:16:21.054012] Finished extract_links()
+[2019-02-06 10:16:21.062011] Finished dump_content()
+[2019-02-06 10:16:21.106010] Finished extract_links()
+[2019-02-06 10:16:21.220093] Finished dump_content()
+[2019-02-06 10:16:21.277089] Finished extract_links()
+[2019-02-06 10:16:21.457077] Finished dump_content()
+[2019-02-06 10:16:21.493076] Finished extract_links()
+[2019-02-06 10:16:21.573074] Finished dump_content()
+[2019-02-06 10:16:21.608069] Finished extract_links()
+[2019-02-06 10:16:21.702064] Finished dump_content()
+[2019-02-06 10:16:21.740062] Finished extract_links()
+[2019-02-06 10:16:21.943048] Finished dump_content()
+[2019-02-06 10:16:21.952046] Finished extract_links()
+[2019-02-06 10:16:21.976046] Finished dump_content()
+[2019-02-06 10:16:22.006166] Finished extract_links()
+[2019-02-06 10:16:22.097162] Finished dump_content()
+[2019-02-06 10:16:22.123160] Finished extract_links()
+[2019-02-06 10:16:22.205155] Finished dump_content()
+[2019-02-06 10:16:22.246152] Finished extract_links()
+[2019-02-06 10:16:22.363145] Finished dump_content()
+[2019-02-06 10:16:22.386144] Finished extract_links()
+[2019-02-06 10:16:22.488255] Finished dump_content()
+[2019-02-06 10:16:22.596248] Finished extract_links()
+[2019-02-06 10:16:23.150215] Finished dump_content()
+[2019-02-06 10:16:23.159214] Finished extract_links()
+[2019-02-06 10:16:23.198212] Finished dump_content()
+[2019-02-06 10:16:23.240209] Finished extract_links()
+[2019-02-06 10:16:23.416198] Finished dump_content()
+[2019-02-06 10:16:23.546191] Finished extract_links()
+[2019-02-06 10:16:24.006161] Exception when dump_content():[(1406, "Data too long for column 'inner_links' at row 1")],url:[http://sports.sina.com.cn/]
+[2019-02-06 10:16:24.027158] Finished extract_links()
+[2019-02-06 10:16:24.127151] Finished dump_content()
+[2019-02-06 10:16:24.128150] Exception when extract_links:[line 13: b'Element script embeds close tag'],url:[http://www.chicagochinaren.com/]
+[2019-02-06 10:16:24.151153] Finished extract_links()
+[2019-02-06 10:16:24.220148] Finished dump_content()
+[2019-02-06 10:16:24.237146] successfully sent back to the left
+[2019-02-06 10:16:24.237146] GOT urls from manager: [
+[2019-02-06 10:16:24.238147] https://www.hao123.com/licai
+[2019-02-06 10:16:24.238147] http://www.51daifu.com
+[2019-02-06 10:16:24.238147] http://www.duokan.com/
+[2019-02-06 10:16:24.238147] http://lady.hao123.com/?tn=kzdl
+[2019-02-06 10:16:24.238147] http://www.ganji.com/
+[2019-02-06 10:16:24.238147] http://www.jiankang.com
+[2019-02-06 10:16:24.238147] http://www.jiuxian.com/
+[2019-02-06 10:16:24.238147] http://www.hao123.com/auto/
+[2019-02-06 10:16:24.238147] http://www.52pk.com
+[2019-02-06 10:16:24.238147] http://www.j1.com
+[2019-02-06 10:16:24.238147] http://news.qq.com/
+[2019-02-06 10:16:24.238147] http://www.smzdm.com
+[2019-02-06 10:16:24.238147] http://www.app-echo.com/
+[2019-02-06 10:16:24.238147] http://www.storychina.cn/frmIndexNew.aspx
+[2019-02-06 10:16:24.239145] http://www.cndzys.com/
+[2019-02-06 10:16:24.239145] http://www.hao123.com/bank
+[2019-02-06 10:16:24.239145] http://www.chinanews.com/
+[2019-02-06 10:16:24.239145] http://www.waynetippetts.com/
+[2019-02-06 10:16:24.239145] http://www.wenkang.cn
+[2019-02-06 10:16:24.239145] http://www.pingshu8.com/
+[2019-02-06 10:16:24.239145] http://www.utusan.com.my/
+[2019-02-06 10:16:24.239145] http://fashion.huanqiu.com/
+[2019-02-06 10:16:24.239145] https://www.microsoft.com/zh-cn
+[2019-02-06 10:16:24.239145] http://www.cnetnews.com.cn/
+[2019-02-06 10:16:24.239145] http://www.glinfo.com/
+[2019-02-06 10:16:24.239145] http://www.1010jz.com/
+[2019-02-06 10:16:24.239145] http://www.baofeng.com/
+[2019-02-06 10:16:24.239145] http://www.games.qq.com
+[2019-02-06 10:16:24.240145] http://www.mifangba.com/
+[2019-02-06 10:16:24.240145] http://baike.baidu.com/
+[2019-02-06 10:16:24.240145] http://www.amazon.com/
+[2019-02-06 10:16:24.240145] http://www.gov.cn/jrzg/
+[2019-02-06 10:16:24.240145] https://tmall.com/
+[2019-02-06 10:16:24.240145] http://video.sina.com.cn/
+[2019-02-06 10:16:24.240145] http://www.yxdown.com
+[2019-02-06 10:16:24.240145] http://www.pps.tv/
+[2019-02-06 10:16:24.240145] http://www.tianxun.com
+[2019-02-06 10:16:24.240145] https://wy.hao123.com/
+[2019-02-06 10:16:24.240145] http://gz.58.com/
+[2019-02-06 10:16:24.240145] http://music.le.com/
+[2019-02-06 10:16:24.240145] http://www.ehaier.com/
+[2019-02-06 10:16:24.240145] http://www.nmtxt.com/
+[2019-02-06 10:16:24.241147] http://www.newyx.net
+[2019-02-06 10:16:24.241147] https://lt.cjdby.net/
+[2019-02-06 10:16:24.241147] http://www.bj-doctor.cn/
+[2019-02-06 10:16:24.241147] http://news.ifeng.com/
+[2019-02-06 10:16:24.241147] http://www.china.com.cn/
+[2019-02-06 10:16:24.241147] http://game.163.com/
+[2019-02-06 10:16:24.241147] http://www.motie.com/
+[2019-02-06 10:16:24.241147] http://www.target.com/
+[2019-02-06 10:16:24.241147] ]
+[2019-02-06 10:16:25.789049] Get response[200]: [http://www.51daifu.com]
+[2019-02-06 10:16:25.801051] Get response[200]: [http://www.duokan.com/]
+[2019-02-06 10:16:25.846047] Get response[200]: [http://www.ganji.com/]
+[2019-02-06 10:16:25.933040] Get response[200]: [http://www.jiuxian.com/]
+[2019-02-06 10:16:25.935043] Get response[200]: [http://lady.hao123.com/?tn=kzdl]
+[2019-02-06 10:16:25.999039] Get response[200]: [https://www.hao123.com/licai]
+[2019-02-06 10:16:26.053033] Get response[200]: [http://www.hao123.com/auto/]
+[2019-02-06 10:16:26.239023] Get response[200]: [http://www.52pk.com]
+[2019-02-06 10:16:26.523002] Get response[200]: [http://www.hao123.com/bank]
+[2019-02-06 10:16:26.539000] Get response[200]: [http://www.chinanews.com/]
+[2019-02-06 10:16:26.648994] Get response[200]: [http://www.storychina.cn/frmIndexNew.aspx]
+[2019-02-06 10:16:28.071909] Get response[200]: [http://www.wenkang.cn]
+[2019-02-06 10:16:28.141904] Get response[200]: [http://www.pingshu8.com/]
+[2019-02-06 10:16:28.238895] Get response[200]: [http://www.waynetippetts.com/]
+[2019-02-06 10:16:30.521754] Get response[200]: [http://fashion.huanqiu.com/]
+[2019-02-06 10:16:30.812737] Get response[200]: [http://www.cnetnews.com.cn/]
+[2019-02-06 10:16:30.963728] Get response[200]: [http://www.baofeng.com/]
+[2019-02-06 10:16:31.033723] Get response[200]: [http://www.1010jz.com/]
+[2019-02-06 10:16:31.131716] Get response[200]: [http://www.mifangba.com/]
+[2019-02-06 10:16:31.313703] Get response[200]: [https://www.microsoft.com/zh-cn]
+[2019-02-06 10:16:31.327707] Get response[200]: [http://www.gov.cn/jrzg/]
+[2019-02-06 10:16:32.662620] Get response[200]: [http://video.sina.com.cn/]
+[2019-02-06 10:16:32.700616] Get response[200]: [http://www.yxdown.com]
+[2019-02-06 10:16:32.731619] Get response[200]: [http://www.pps.tv/]
+[2019-02-06 10:16:32.961603] Get response[200]: [http://gz.58.com/]
+[2019-02-06 10:16:33.229586] Get response[200]: [http://music.le.com/]
+[2019-02-06 10:16:33.237587] Get response[200]: [http://www.ehaier.com/]
+[2019-02-06 10:16:33.368575] Get response[200]: [https://wy.hao123.com/]
+[2019-02-06 10:16:34.554499] Fail to fetch page. Exception: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), url:[http://www.nmtxt.com/]
+[2019-02-06 10:16:34.840482] Get response[200]: [http://news.ifeng.com/]
+[2019-02-06 10:16:34.859484] Get response[200]: [http://www.bj-doctor.cn/]
+[2019-02-06 10:16:34.901484] Get response[200]: [http://www.china.com.cn/]
+[2019-02-06 10:16:35.017472] Get response[200]: [http://game.163.com/]
+[2019-02-06 10:16:35.094466] Get response[200]: [https://lt.cjdby.net/]
+[2019-02-06 10:16:35.167465] Get response[200]: [http://www.motie.com/]
+[2019-02-06 10:16:35.367451] Get response[200]: [http://news.qq.com/]
+[2019-02-06 10:16:35.468444] Get response[200]: [http://www.jiankang.com]
+[2019-02-06 10:16:35.531440] Get response[200]: [http://www.cndzys.com/]
+[2019-02-06 10:16:35.676431] Get response[200]: [http://www.j1.com]
+[2019-02-06 10:16:35.926416] Get response[200]: [http://www.smzdm.com]
+[2019-02-06 10:16:36.676369] Get response[200]: [http://www.glinfo.com/]
+[2019-02-06 10:16:36.795362] Get response[200]: [http://www.games.qq.com]
+[2019-02-06 10:16:36.939352] Get response[200]: [http://baike.baidu.com/]
+[2019-02-06 10:16:36.970349] Get response[200]: [http://www.newyx.net]
+[2019-02-06 10:16:37.030345] Get response[200]: [http://www.tianxun.com]
+[2019-02-06 10:16:37.039348] Get response[200]: [https://tmall.com/]
+[2019-02-06 10:16:39.063221] Get response[200]: [http://www.amazon.com/]
+[2019-02-06 10:16:40.098157] Get response[403]: [http://www.app-echo.com/]
+[2019-02-06 10:16:55.972615] Fail to fetch page. Exception: HTTPConnectionPool(host='www.target.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041ED6F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.target.com/]
+[2019-02-06 10:17:52.821547] Fail to fetch page. Exception: HTTPConnectionPool(host='www.utusan.com.my', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x044AB810>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.utusan.com.my/]
+[2019-02-06 10:17:52.870547] Finished extract_links()
+[2019-02-06 10:17:53.021535] Finished dump_content()
+[2019-02-06 10:17:53.096531] Finished extract_links()
+[2019-02-06 10:17:53.232523] Finished dump_content()
+[2019-02-06 10:17:53.271520] Finished extract_links()
+[2019-02-06 10:17:53.369513] Finished dump_content()
+[2019-02-06 10:17:53.396512] Finished extract_links()
+[2019-02-06 10:17:53.509505] Finished dump_content()
+[2019-02-06 10:17:53.535503] Finished extract_links()
+[2019-02-06 10:17:53.567588] Finished dump_content()
+[2019-02-06 10:17:53.589587] Finished extract_links()
+[2019-02-06 10:17:53.648584] Finished dump_content()
+[2019-02-06 10:17:53.705580] Finished extract_links()
+[2019-02-06 10:17:53.828574] Finished dump_content()
+[2019-02-06 10:17:53.836574] Finished extract_links()
+[2019-02-06 10:17:53.861571] Finished dump_content()
+[2019-02-06 10:17:53.965566] Finished extract_links()
+[2019-02-06 10:17:54.160553] Finished dump_content()
+[2019-02-06 10:17:54.283545] Finished extract_links()
+[2019-02-06 10:17:54.522532] Finished dump_content()
+[2019-02-06 10:17:54.524530] Finished extract_links()
+[2019-02-06 10:17:54.536529] Finished dump_content()
+[2019-02-06 10:17:54.646523] Finished extract_links()
+[2019-02-06 10:17:55.078624] Finished dump_content()
+[2019-02-06 10:17:55.107622] Finished extract_links()
+[2019-02-06 10:17:55.341608] Finished dump_content()
+[2019-02-06 10:17:55.388607] Finished extract_links()
+[2019-02-06 10:17:55.503677] Finished dump_content()
+[2019-02-06 10:17:55.518676] Finished extract_links()
+[2019-02-06 10:17:55.552672] Finished dump_content()
+[2019-02-06 10:17:55.610670] Finished extract_links()
+[2019-02-06 10:17:55.794794] Finished dump_content()
+[2019-02-06 10:17:55.797794] Finished extract_links()
+[2019-02-06 10:17:55.809795] Finished dump_content()
+[2019-02-06 10:17:55.851791] Finished extract_links()
+[2019-02-06 10:17:55.966931] Finished dump_content()
+[2019-02-06 10:17:56.107921] Finished extract_links()
+[2019-02-06 10:17:56.371910] Exception when dump_content():[(1406, "Data too long for column 'inner_links' at row 1")],url:[http://www.pingshu8.com/]
+[2019-02-06 10:17:56.393906] Finished extract_links()
+[2019-02-06 10:17:56.452900] Finished dump_content()
+[2019-02-06 10:17:56.475901] Finished extract_links()
+[2019-02-06 10:17:56.570893] Finished dump_content()
+[2019-02-06 10:17:56.585899] Finished extract_links()
+[2019-02-06 10:17:56.640889] Finished dump_content()
+[2019-02-06 10:17:56.643888] Finished extract_links()
+[2019-02-06 10:17:56.659890] Finished dump_content()
+[2019-02-06 10:17:56.685887] Finished extract_links()
+[2019-02-06 10:17:56.719039] Finished dump_content()
+[2019-02-06 10:17:56.762037] Finished extract_links()
+[2019-02-06 10:17:56.878030] Finished dump_content()
+[2019-02-06 10:17:56.895028] Finished extract_links()
+[2019-02-06 10:17:56.973022] Finished dump_content()
+[2019-02-06 10:17:56.991023] Finished extract_links()
+[2019-02-06 10:17:57.046018] Finished dump_content()
+[2019-02-06 10:17:57.074017] Finished extract_links()
+[2019-02-06 10:17:57.161012] Finished dump_content()
+[2019-02-06 10:17:57.212010] Finished extract_links()
+[2019-02-06 10:17:57.427995] Finished dump_content()
+[2019-02-06 10:17:57.442994] Finished extract_links()
+[2019-02-06 10:17:57.494993] Finished dump_content()
+[2019-02-06 10:17:57.523989] Finished extract_links()
+[2019-02-06 10:17:57.682981] Finished dump_content()
+[2019-02-06 10:17:57.695978] Finished extract_links()
+[2019-02-06 10:17:57.751064] Finished dump_content()
+[2019-02-06 10:17:57.849058] Finished extract_links()
+[2019-02-06 10:17:58.132208] Finished dump_content()
+[2019-02-06 10:17:58.252202] Finished extract_links()
+[2019-02-06 10:17:58.738170] Finished dump_content()
+[2019-02-06 10:17:58.750169] Finished extract_links()
+[2019-02-06 10:17:58.789165] Finished dump_content()
+[2019-02-06 10:17:58.813164] Finished extract_links()
+[2019-02-06 10:17:58.916159] Finished dump_content()
+[2019-02-06 10:17:58.968156] Finished extract_links()
+[2019-02-06 10:17:59.065259] Finished dump_content()
+[2019-02-06 10:17:59.106257] Finished extract_links()
+[2019-02-06 10:17:59.318244] Finished dump_content()
+[2019-02-06 10:17:59.366241] Finished extract_links()
+[2019-02-06 10:17:59.506232] Finished dump_content()
+[2019-02-06 10:17:59.579231] Finished extract_links()
+[2019-02-06 10:17:59.746217] Finished dump_content()
+[2019-02-06 10:17:59.777215] Finished extract_links()
+[2019-02-06 10:17:59.841211] Finished dump_content()
+[2019-02-06 10:17:59.879212] Finished extract_links()
+[2019-02-06 10:18:00.014201] Finished dump_content()
+[2019-02-06 10:18:00.020200] Finished extract_links()
+[2019-02-06 10:18:00.077199] Finished dump_content()
+[2019-02-06 10:18:00.129194] Finished extract_links()
+[2019-02-06 10:18:00.289186] Finished dump_content()
+[2019-02-06 10:18:00.324186] Finished extract_links()
+[2019-02-06 10:18:00.452174] Finished dump_content()
+[2019-02-06 10:18:00.504171] Finished extract_links()
+[2019-02-06 10:18:00.689161] Finished dump_content()
+[2019-02-06 10:18:00.711158] successfully sent back to the left
+[2019-02-06 10:18:00.712159] GOT urls from manager: [
+[2019-02-06 10:18:00.712159] http://jd.com/
+[2019-02-06 10:18:00.712159] http://www.xxsy.net/
+[2019-02-06 10:18:00.713160] http://www.hao123.com/software.htm
+[2019-02-06 10:18:00.713160] http://www.infzm.com/
+[2019-02-06 10:18:00.713160] http://www.yhd.com/
+[2019-02-06 10:18:00.713160] http://www.huanqiu.com/
+[2019-02-06 10:18:00.713160] http://www.mei.com/
+[2019-02-06 10:18:00.713160] https://chaoshi.tmall.com/
+[2019-02-06 10:18:00.713160] https://v.6.cn/?src=z9weij1159
+[2019-02-06 10:18:00.713160] http://tv.sohu.com/
+[2019-02-06 10:18:00.713160] http://www.le.com/
+[2019-02-06 10:18:00.713160] http://www.lvye.cn
+[2019-02-06 10:18:00.713160] http://www.guahao.com
+[2019-02-06 10:18:00.713160] http://www.xici.net/
+[2019-02-06 10:18:00.713160] https://www.hotbody.cn/index.html
+[2019-02-06 10:18:00.713160] http://play.163.com/
+[2019-02-06 10:18:00.714157] http://news.sina.com.cn/
+[2019-02-06 10:18:00.714157] http://tieba.baidu.com/
+[2019-02-06 10:18:00.714157] http://tech.163.com/
+[2019-02-06 10:18:00.714157] http://www.pcgames.com.cn
+[2019-02-06 10:18:00.714157] http://people.com.cn/
+[2019-02-06 10:18:00.714157] http://forum.xda-developers.com
+[2019-02-06 10:18:00.714157] http://www.xfrb.com.cn/
+[2019-02-06 10:18:00.714157] http://www.fanwe.com/
+[2019-02-06 10:18:00.714157] http://www.kan8kan.com/
+[2019-02-06 10:18:00.714157] http://www.mca8.com/
+[2019-02-06 10:18:00.714157] http://www.guancha.cn/
+[2019-02-06 10:18:00.715158] http://www.uuu9.com
+[2019-02-06 10:18:00.715158] https://www.paipai.fm/
+[2019-02-06 10:18:00.715158] http://www.bbs.duowan.com
+[2019-02-06 10:18:00.715158] http://www.laneige.com/main.jsp
+[2019-02-06 10:18:00.715158] http://baike.sogou.com/Home.v
+[2019-02-06 10:18:00.715158] http://www.fx120.net/
+[2019-02-06 10:18:00.715158] http://www.yzz.cn/
+[2019-02-06 10:18:00.715158] http://top.baidu.com/buzz/book.html
+[2019-02-06 10:18:00.715158] http://www.qiushibaike.com/
+[2019-02-06 10:18:00.715158] http://www.mydrivers.com/
+[2019-02-06 10:18:00.715158] http://www.wbiao.cn
+[2019-02-06 10:18:00.715158] http://www.ithome.com
+[2019-02-06 10:18:00.715158] https://chaoshi.tmall.com/?targetPage=index&ali_trackid=2%3Amm_26632322_6858406_171594881%3A1524035460_269_2048971000
+[2019-02-06 10:18:00.715158] https://ju.taobao.com/
+[2019-02-06 10:18:00.716157] http://www.cctv.com/
+[2019-02-06 10:18:00.716157] https://www.iwjw.com/
+[2019-02-06 10:18:00.716157] http://www.pharmnet.com.cn
+[2019-02-06 10:18:00.716157] http://www.17k.com/
+[2019-02-06 10:18:00.716157] http://www.stnn.cc/
+[2019-02-06 10:18:00.716157] http://www.tmall.com
+[2019-02-06 10:18:00.716157] http://www.vodjk.com/
+[2019-02-06 10:18:00.716157] http://www.lol.qq.com
+[2019-02-06 10:18:00.716157] http://www.leha.com
+[2019-02-06 10:18:00.716157] ]
+[2019-02-06 10:18:01.116132] Get response[200]: [http://www.xxsy.net/]
+[2019-02-06 10:18:01.170130] Get response[200]: [http://www.hao123.com/software.htm]
+[2019-02-06 10:18:01.188127] Get response[200]: [http://www.infzm.com/]
+[2019-02-06 10:18:01.362118] Get response[200]: [http://www.yhd.com/]
+[2019-02-06 10:18:01.371116] Get response[200]: [http://www.huanqiu.com/]
+[2019-02-06 10:18:01.474110] Get response[200]: [http://www.mei.com/]
+[2019-02-06 10:18:01.819442] Get response[200]: [https://v.6.cn/?src=z9weij1159]
+[2019-02-06 10:18:01.874439] Get response[200]: [http://www.lvye.cn]
+[2019-02-06 10:18:01.879439] Get response[200]: [https://chaoshi.tmall.com/]
+[2019-02-06 10:18:01.889436] Get response[200]: [http://www.le.com/]
+[2019-02-06 10:18:02.207418] Get response[200]: [http://www.xici.net/]
+[2019-02-06 10:18:02.281411] Get response[200]: [http://play.163.com/]
+[2019-02-06 10:18:02.326413] Get response[200]: [http://tech.163.com/]
+[2019-02-06 10:18:02.342407] Get response[200]: [https://www.hotbody.cn/index.html]
+[2019-02-06 10:18:02.402403] Get response[200]: [http://www.pcgames.com.cn]
+[2019-02-06 10:18:02.611392] Get response[200]: [http://www.xfrb.com.cn/]
+[2019-02-06 10:18:02.828381] Get response[200]: [http://www.fanwe.com/]
+[2019-02-06 10:18:03.074363] Get response[200]: [http://people.com.cn/]
+[2019-02-06 10:18:03.127361] Get response[200]: [http://www.mca8.com/]
+[2019-02-06 10:18:03.236354] Get response[200]: [http://www.uuu9.com]
+[2019-02-06 10:18:03.291348] Fail to fetch page. Exception: HTTPConnectionPool(host='www.bbs.duowan.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06CD36B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://www.bbs.duowan.com]
+[2019-02-06 10:18:03.693323] Get response[200]: [https://www.paipai.fm/]
+[2019-02-06 10:18:05.895186] Get response[200]: [http://www.fx120.net/]
+[2019-02-06 10:18:05.931188] Get response[200]: [http://www.yzz.cn/]
+[2019-02-06 10:18:06.033178] Get response[200]: [http://top.baidu.com/buzz/book.html]
+[2019-02-06 10:18:06.049177] Get response[200]: [http://www.mydrivers.com/]
+[2019-02-06 10:18:06.196167] Get response[200]: [http://www.cctv.com/]
+[2019-02-06 10:18:06.405157] Get response[200]: [http://www.pharmnet.com.cn]
+[2019-02-06 10:18:06.487149] Get response[200]: [http://www.stnn.cc/]
+[2019-02-06 10:18:06.539148] Get response[200]: [https://chaoshi.tmall.com/?targetPage=index&ali_trackid=2%3Amm_26632322_6858406_171594881%3A1524035460_269_2048971000]
+[2019-02-06 10:18:06.609144] Get response[200]: [http://www.vodjk.com/]
+[2019-02-06 10:18:06.647141] Get response[200]: [https://www.iwjw.com/]
+[2019-02-06 10:18:06.696143] Fail to fetch page. Exception: HTTPConnectionPool(host='www.lol.qq.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x044AB550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://www.lol.qq.com]
+[2019-02-06 10:18:06.709137] Get response[200]: [http://www.17k.com/]
+[2019-02-06 10:18:06.831126] Get response[200]: [http://www.leha.com]
+[2019-02-06 10:18:06.994118] Get response[200]: [http://tv.sohu.com/]
+[2019-02-06 10:18:07.077112] Get response[200]: [http://jd.com/]
+[2019-02-06 10:18:07.201106] Get response[200]: [http://news.sina.com.cn/]
+[2019-02-06 10:18:07.240103] Get response[200]: [http://www.guancha.cn/]
+[2019-02-06 10:18:07.279101] Get response[200]: [http://baike.sogou.com/Home.v]
+[2019-02-06 10:18:07.303099] Get response[200]: [http://www.guahao.com]
+[2019-02-06 10:18:07.342098] Get response[200]: [http://www.ithome.com]
+[2019-02-06 10:18:07.381093] Get response[200]: [http://www.qiushibaike.com/]
+[2019-02-06 10:18:07.539085] Get response[200]: [http://tieba.baidu.com/]
+[2019-02-06 10:18:07.545082] Get response[200]: [http://www.wbiao.cn]
+[2019-02-06 10:18:07.608080] Get response[200]: [http://www.tmall.com]
+[2019-02-06 10:18:07.967056] Get response[200]: [https://ju.taobao.com/]
+[2019-02-06 10:18:08.272037] Get response[200]: [http://www.laneige.com/main.jsp]
+[2019-02-06 10:18:44.953140] Fail to fetch page. Exception: HTTPConnectionPool(host='www.kan8kan.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06CC8D10>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.kan8kan.com/]
+[2019-02-06 10:19:15.813391] Fail to fetch page. Exception: HTTPConnectionPool(host='forum.xda-developers.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04486CD0>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。',)), url:[http://forum.xda-developers.com]
+[2019-02-06 10:19:15.833389] Finished extract_links()
+[2019-02-06 10:19:16.080373] Finished dump_content()
+[2019-02-06 10:19:16.123370] Finished extract_links()
+[2019-02-06 10:19:16.664342] Finished dump_content()
+[2019-02-06 10:19:16.674337] Finished extract_links()
+[2019-02-06 10:19:16.785328] Finished dump_content()
+[2019-02-06 10:19:16.815327] Finished extract_links()
+[2019-02-06 10:19:17.032317] Finished dump_content()
+[2019-02-06 10:19:17.050313] Finished extract_links()
+[2019-02-06 10:19:17.101312] Finished dump_content()
+[2019-02-06 10:19:17.246302] Finished extract_links()
+[2019-02-06 10:19:17.812269] Finished dump_content()
+[2019-02-06 10:19:17.813267] Finished extract_links()
+[2019-02-06 10:19:17.823264] Finished dump_content()
+[2019-02-06 10:19:17.835262] Finished extract_links()
+[2019-02-06 10:19:17.969256] Finished dump_content()
+[2019-02-06 10:19:18.019252] Finished extract_links()
+[2019-02-06 10:19:18.703209] Exception when dump_content():[(1366, "Incorrect string value: '\\xF0\\x9F\\x92\\x9F\\xE8\\xBF...' for column 'text' at row 1")],url:[https://v.6.cn/?src=z9weij1159]
+[2019-02-06 10:19:18.976194] Finished extract_links()
+[2019-02-06 10:19:19.824139] Finished dump_content()
+[2019-02-06 10:19:20.089121] Finished extract_links()
+[2019-02-06 10:19:21.421039] Finished dump_content()
+[2019-02-06 10:19:21.448038] Finished extract_links()
+[2019-02-06 10:19:21.525033] Finished dump_content()
+[2019-02-06 10:19:21.600028] Finished extract_links()
+[2019-02-06 10:19:21.844017] Finished dump_content()
+[2019-02-06 10:19:21.880012] Finished extract_links()
+[2019-02-06 10:19:22.079999] Finished dump_content()
+[2019-02-06 10:19:22.085999] Finished extract_links()
+[2019-02-06 10:19:22.305986] Finished dump_content()
+[2019-02-06 10:19:22.330984] Finished extract_links()
+[2019-02-06 10:19:22.511971] Exception when dump_content():[(1366, "Incorrect string value: '\\xF1\\xA3\\xAC\\xB6\\xD0\\xA9...' for column 'text' at row 1")],url:[http://play.163.com/]
+[2019-02-06 10:19:22.734958] Finished extract_links()
+[2019-02-06 10:19:23.340921] Finished dump_content()
+[2019-02-06 10:19:23.384916] Finished extract_links()
+[2019-02-06 10:19:23.541906] Finished dump_content()
+[2019-02-06 10:19:23.582905] Finished extract_links()
+[2019-02-06 10:19:23.698897] Finished dump_content()
+[2019-02-06 10:19:23.829888] Finished extract_links()
+[2019-02-06 10:19:24.312859] Finished dump_content()
+[2019-02-06 10:19:24.413853] Finished extract_links()
+[2019-02-06 10:19:24.595840] Finished dump_content()
+[2019-02-06 10:19:24.624838] Finished extract_links()
+[2019-02-06 10:19:24.718831] Finished dump_content()
+[2019-02-06 10:19:24.751834] Finished extract_links()
+[2019-02-06 10:19:24.840825] Finished dump_content()
+[2019-02-06 10:19:24.841825] Finished extract_links()
+[2019-02-06 10:19:24.848825] Finished dump_content()
+[2019-02-06 10:19:24.940819] Finished extract_links()
+[2019-02-06 10:19:25.203806] Finished dump_content()
+[2019-02-06 10:19:25.324795] Finished extract_links()
+[2019-02-06 10:19:25.549778] Finished dump_content()
+[2019-02-06 10:19:25.561783] Finished extract_links()
+[2019-02-06 10:19:25.595776] Finished dump_content()
+[2019-02-06 10:19:25.607776] Finished extract_links()
+[2019-02-06 10:19:25.702770] Finished dump_content()
+[2019-02-06 10:19:25.711769] Finished extract_links()
+[2019-02-06 10:19:25.780770] Finished dump_content()
+[2019-02-06 10:19:25.939757] Finished extract_links()
+[2019-02-06 10:19:26.125746] Finished dump_content()
+[2019-02-06 10:19:26.172741] Finished extract_links()
+[2019-02-06 10:19:26.345731] Finished dump_content()
+[2019-02-06 10:19:26.380728] Finished extract_links()
+[2019-02-06 10:19:26.461722] Finished dump_content()
+[2019-02-06 10:19:26.482721] Finished extract_links()
+[2019-02-06 10:19:26.529720] Exception when dump_content():[(1366, "Incorrect string value: '\\xF0\\x9F\\x94\\xA5\\x01[...' for column 'text' at row 1")],url:[http://www.qiushibaike.com/]
+[2019-02-06 10:19:26.666711] Finished extract_links()
+[2019-02-06 10:19:26.944693] Finished dump_content()
+[2019-02-06 10:19:27.001689] Finished extract_links()
+[2019-02-06 10:19:27.147682] Finished dump_content()
+[2019-02-06 10:19:27.208681] Finished extract_links()
+[2019-02-06 10:19:27.530656] Finished dump_content()
+[2019-02-06 10:19:27.542655] Finished extract_links()
+[2019-02-06 10:19:27.594653] Finished dump_content()
+[2019-02-06 10:19:27.675647] Finished extract_links()
+[2019-02-06 10:19:28.744581] Finished dump_content()
+[2019-02-06 10:19:28.897574] Finished extract_links()
+[2019-02-06 10:19:29.222552] Finished dump_content()
+[2019-02-06 10:19:29.223553] Finished extract_links()
+[2019-02-06 10:19:29.232551] Finished dump_content()
+[2019-02-06 10:19:29.282549] Finished extract_links()
+[2019-02-06 10:19:29.435537] Finished dump_content()
+[2019-02-06 10:19:29.606528] Finished extract_links()
+[2019-02-06 10:19:29.879511] Finished dump_content()
+[2019-02-06 10:19:29.928505] Finished extract_links()
+[2019-02-06 10:19:30.112497] Finished dump_content()
+[2019-02-06 10:19:30.142492] Finished extract_links()
+[2019-02-06 10:19:30.307484] Finished dump_content()
+[2019-02-06 10:19:30.356481] Finished extract_links()
+[2019-02-06 10:19:30.491473] Finished dump_content()
+[2019-02-06 10:19:30.526470] Finished extract_links()
+[2019-02-06 10:19:30.604463] Finished dump_content()
+[2019-02-06 10:19:30.670458] successfully sent back to the left
+[2019-02-06 10:19:32.979316] links_requester succeed request()
+[2019-02-06 10:19:32.979316] GOT urls from manager: [
+[2019-02-06 10:19:32.979316] http://hsb.hsw.cn/
+[2019-02-06 10:19:32.979316] http://tech.qq.com/
+[2019-02-06 10:19:32.979316] http://open.163.com/
+[2019-02-06 10:19:32.980320] http://www.haodf.com/
+[2019-02-06 10:19:32.980320] http://edu.iqiyi.com/
+[2019-02-06 10:19:32.980320] http://hb.qq.com/news/
+[2019-02-06 10:19:32.980320] http://www.xcar.com.cn/
+[2019-02-06 10:19:32.980320] http://www.3366.com
+[2019-02-06 10:19:32.980320] http://gmw.cn/
+[2019-02-06 10:19:32.980320] http://www.dzwww.com/
+[2019-02-06 10:19:32.980320] http://www.weidian.com
+[2019-02-06 10:19:32.980320] http://www.xinmin.cn/
+[2019-02-06 10:19:32.980320] http://www.ting85.com/
+[2019-02-06 10:19:32.980320] http://www.familydoctor.com.cn
+[2019-02-06 10:19:32.980320] http://www.lotour.com/
+[2019-02-06 10:19:32.980320] http://www.jiayuan.com/
+[2019-02-06 10:19:32.981314] http://www.ce.cn/
+[2019-02-06 10:19:32.981314] http://www.cnblogs.com/
+[2019-02-06 10:19:32.981314] http://www.kankan.com/
+[2019-02-06 10:19:32.981314] http://www.bytravel.cn
+[2019-02-06 10:19:32.981314] http://www.pptv.com/
+[2019-02-06 10:19:32.981314] http://www.aisixiang.com/
+[2019-02-06 10:19:32.981314] http://gz.focus.cn/
+[2019-02-06 10:19:32.981314] http://www.sina.com/
+[2019-02-06 10:19:32.981314] http://health.sohu.com/
+[2019-02-06 10:19:32.981314] http://www.dxy.cn
+[2019-02-06 10:19:32.981314] http://www.bbc.com/
+[2019-02-06 10:19:32.981314] http://www.jjwxc.net/
+[2019-02-06 10:19:32.981314] http://www.czsx.com.cn/
+[2019-02-06 10:19:32.982315] http://www.hupu.com/
+[2019-02-06 10:19:32.982315] http://www.23wx.com/
+[2019-02-06 10:19:32.982315] http://www.eastmoney.com/
+[2019-02-06 10:19:32.982315] http://www.hao123.com/auto
+[2019-02-06 10:19:32.982315] http://wind.yinsha.com/
+[2019-02-06 10:19:32.982315] http://www.southcn.com/
+[2019-02-06 10:19:32.982315] http://finance.huanqiu.com/
+[2019-02-06 10:19:32.982315] http://www.duobei.com/
+[2019-02-06 10:19:32.982315] https://www.hao123.com/
+[2019-02-06 10:19:32.982315] https://beijing.anjuke.com/sale/?pi=navi-hao123-kz
+[2019-02-06 10:19:32.982315] http://www.pingram.me/
+[2019-02-06 10:19:32.982315] http://www.hexun.com/
+[2019-02-06 10:19:32.982315] http://www.xiazaiba.com
+[2019-02-06 10:19:32.983316] http://www.flipkart.com/
+[2019-02-06 10:19:32.983316] http://faloo.com/
+[2019-02-06 10:19:32.983316] http://www.aufeminin.com/
+[2019-02-06 10:19:32.983316] http://www.sfbest.com/
+[2019-02-06 10:19:32.983316] http://www.ysx8.net/
+[2019-02-06 10:19:32.983316] http://www.hao123.com/love
+[2019-02-06 10:19:32.983316] http://www.chinahr.com/
+[2019-02-06 10:19:32.983316] http://www.aitxt.com/
+[2019-02-06 10:19:32.983316] ]
+[2019-02-06 10:19:33.126312] Fail to fetch page. Exception: HTTPConnectionPool(host='hsb.hsw.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0BA1D790>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://hsb.hsw.cn/]
+[2019-02-06 10:19:33.425288] Get response[200]: [http://tech.qq.com/]
+[2019-02-06 10:19:33.552284] Get response[200]: [http://open.163.com/]
+[2019-02-06 10:19:33.686272] Get response[200]: [http://hb.qq.com/news/]
+[2019-02-06 10:19:33.850262] Get response[200]: [http://edu.iqiyi.com/]
+[2019-02-06 10:19:33.980255] Get response[200]: [http://www.dzwww.com/]
+[2019-02-06 10:19:33.988254] Get response[200]: [http://www.xcar.com.cn/]
+[2019-02-06 10:19:34.173784] Get response[200]: [http://www.xinmin.cn/]
+[2019-02-06 10:19:34.235778] Get response[200]: [http://www.familydoctor.com.cn]
+[2019-02-06 10:19:34.270775] Get response[200]: [http://www.ting85.com/]
+[2019-02-06 10:19:34.352770] Get response[200]: [http://www.lotour.com/]
+[2019-02-06 10:19:34.447765] Get response[200]: [http://www.ce.cn/]
+[2019-02-06 10:19:34.512761] Get response[200]: [http://www.jiayuan.com/]
+[2019-02-06 10:19:34.613755] Get response[200]: [http://www.kankan.com/]
+[2019-02-06 10:19:34.666751] Get response[200]: [http://www.bytravel.cn]
+[2019-02-06 10:19:34.841741] Get response[200]: [http://www.pptv.com/]
+[2019-02-06 10:19:34.922735] Get response[200]: [http://gmw.cn/]
+[2019-02-06 10:19:34.948733] Get response[200]: [http://www.aisixiang.com/]
+[2019-02-06 10:19:35.092728] Get response[200]: [http://www.dxy.cn]
+[2019-02-06 10:19:35.233715] Get response[200]: [http://health.sohu.com/]
+[2019-02-06 10:19:36.649230] Get response[200]: [http://www.jjwxc.net/]
+[2019-02-06 10:19:36.925211] Get response[200]: [http://www.eastmoney.com/]
+[2019-02-06 10:19:37.009204] Get response[200]: [http://www.czsx.com.cn/]
+[2019-02-06 10:19:37.009204] Get response[200]: [http://www.hao123.com/auto]
+[2019-02-06 10:19:47.886804] Fail to fetch page. Exception: HTTPConnectionPool(host='wind.yinsha.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x044A6350>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)), url:[http://wind.yinsha.com/]
+[2019-02-06 10:19:48.133790] Get response[200]: [http://www.southcn.com/]
+[2019-02-06 10:19:49.561699] Get response[200]: [http://finance.huanqiu.com/]
+[2019-02-06 10:19:49.777683] Get response[200]: [http://www.duobei.com/]
+[2019-02-06 10:19:50.108664] Get response[200]: [http://www.hexun.com/]
+[2019-02-06 10:19:50.240656] Get response[200]: [https://beijing.anjuke.com/sale/?pi=navi-hao123-kz]
+[2019-02-06 10:19:50.280655] Get response[200]: [http://faloo.com/]
+[2019-02-06 10:19:50.434644] Get response[200]: [https://www.hao123.com/]
+[2019-02-06 10:19:51.911551] Fail to fetch page. Exception: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), url:[http://www.aufeminin.com/]
+[2019-02-06 10:19:52.022542] Fail to fetch page. Exception: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), url:[http://www.sfbest.com/]
+[2019-02-06 10:19:52.197533] Get response[200]: [http://www.hao123.com/love]
+[2019-02-06 10:19:52.654502] Get response[200]: [http://www.aitxt.com/]
+[2019-02-06 10:19:52.739500] Get response[200]: [http://www.xiazaiba.com]
+[2019-02-06 10:19:52.750500] Get response[200]: [http://www.weidian.com]
+[2019-02-06 10:19:52.763497] Get response[200]: [http://www.cnblogs.com/]
+[2019-02-06 10:19:52.771496] Get response[200]: [http://www.hupu.com/]
+[2019-02-06 10:19:52.840493] Get response[200]: [http://www.haodf.com/]
+[2019-02-06 10:19:52.887490] Get response[200]: [http://www.ysx8.net/]
+[2019-02-06 10:19:52.893489] Get response[200]: [http://gz.focus.cn/]
+[2019-02-06 10:19:53.676440] Get response[200]: [http://www.flipkart.com/]
+[2019-02-06 10:19:55.599320] Get response[200]: [http://www.3366.com]
+[2019-02-06 10:19:56.106287] Fail to fetch page. Exception: Exceeded 30 redirects., url:[http://www.chinahr.com/]
+[2019-02-06 10:19:57.456202] Fail to fetch page. Exception: HTTPConnectionPool(host='www.bbc.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0A1210D0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.bbc.com/]
+[2019-02-06 10:19:57.681187] Fail to fetch page. Exception: HTTPConnectionPool(host='www.23wx.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0BA147F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.23wx.com/]
+[2019-02-06 10:20:10.766835] Fail to fetch page. Exception: HTTPConnectionPool(host='www.pingram.me', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0B9C0CD0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.pingram.me/]
+[2019-02-06 10:22:01.770007] Fail to fetch page. Exception: HTTPConnectionPool(host='www.sina.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041D9950>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)), url:[http://www.sina.com/]
+[2019-02-06 10:22:01.877001] Finished extract_links()
+[2019-02-06 10:22:02.142207] Exception when dump_content():[(1366, "Incorrect string value: '\\xF1\\xA3\\xAC\\xBD\\xCA\\xBE...' for column 'text' at row 1")],url:[http://tech.qq.com/]
+[2019-02-06 10:22:02.196701] Finished extract_links()
+[2019-02-06 10:22:02.334402] Finished dump_content()
+[2019-02-06 10:22:02.440907] Finished extract_links()
+[2019-02-06 10:22:02.736956] Exception when dump_content():[(1406, "Data too long for column 'inner_links' at row 1")],url:[http://www.haodf.com/]
+[2019-02-06 10:22:02.798951] Finished extract_links()
+[2019-02-06 10:22:03.083692] Finished dump_content()
+[2019-02-06 10:22:03.106692] Finished extract_links()
+[2019-02-06 10:22:03.179702] Exception when dump_content():[(1366, "Incorrect string value: '\\xF1\\xBE\\xAF\\xB3\\xCA\\xB1...' for column 'text' at row 1")],url:[http://hb.qq.com/news/]
+[2019-02-06 10:22:03.373813] Finished extract_links()
+[2019-02-06 10:22:04.010021] Finished dump_content()
+[2019-02-06 10:22:04.021019] Finished extract_links()
+[2019-02-06 10:22:04.070106] Finished dump_content()
+[2019-02-06 10:22:04.126103] Finished extract_links()
+[2019-02-06 10:22:04.284095] Finished dump_content()
+[2019-02-06 10:22:04.362087] Finished extract_links()
+[2019-02-06 10:22:04.579514] Finished dump_content()
+[2019-02-06 10:22:04.582645] Finished extract_links()
+[2019-02-06 10:22:04.593768] Finished dump_content()
+[2019-02-06 10:22:04.913697] Finished extract_links()
+[2019-02-06 10:22:07.316432] Finished dump_content()
+[2019-02-06 10:22:07.341536] Finished extract_links()
+[2019-02-06 10:22:07.422867] Finished dump_content()
+[2019-02-06 10:22:07.570069] Finished extract_links()
+[2019-02-06 10:22:07.886236] Exception when dump_content():[(1406, "Data too long for column 'outer_links' at row 1")],url:[http://www.familydoctor.com.cn]
+[2019-02-06 10:22:07.940234] Finished extract_links()
+[2019-02-06 10:22:08.088225] Finished dump_content()
+[2019-02-06 10:22:08.126339] Finished extract_links()

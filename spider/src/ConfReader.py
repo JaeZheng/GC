@@ -17,7 +17,7 @@ class ConfReader(object):
     def __init__(self, conf_file, default_conf):
         self.conf_dict = {}
         self.defconf = default_conf
-        with open("conf/" + conf_file, "r") as f:
+        with open("../conf/" + conf_file, "r") as f:
             for line in f:
                 if not line.strip() or line.strip().startswith('#'):
                     continue

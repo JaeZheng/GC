@@ -5,7 +5,7 @@
 
 # pylint: disable=superfluous-parens, invalid-name, broad-except
 
-import MySQLdb
+import pymysql
 
 class DBHandler:
     """ handle database issue """
@@ -23,23 +23,23 @@ class DBHandler:
     def connect(self):
         """ connect database """
         try:
-            self.dbcon = MySQLdb.connect(
+            self.dbcon = pymysql.connect(
                     host=self.mysql_url,
                     user=self.user_name,
                     passwd=self.passwd,
                     db=self.DBname,
                     charset=self.charset)
             self.cur = self.dbcon.cursor();
-        except MySQLdb.Error as e:
+        except pymysql.Error as e:
             # database not exists, create it
-            con = MySQLdb.connect(
+            con = pymysql.connect(
                     host=self.mysql_url,
                     user=self.user_name,
                     passwd=self.passwd,
                     charset=self.charset)
             cur = con.cursor()
             if cur.execute("CREATE DATABASE IF NOT EXISTS %s DEFAULT CHARSET 'utf8'" % self.DBname):
-                self.dbcon = MySQLdb.connect(
+                self.dbcon = pymysql.connect(
                         host=self.mysql_url,
                         user=self.user_name,
                         passwd=self.passwd,
@@ -55,7 +55,7 @@ class DBHandler:
             self.cur.execute(sql_string, *args) # parameterized statement
             self.dbcon.commit()
             return self.cur.fetchall()
-        except MySQLdb.Error as e:
+        except pymysql.Error as e:
             if self.dbcon:
                 self.dbcon.rollback()
             raise e

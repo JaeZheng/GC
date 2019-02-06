@@ -33,7 +33,7 @@ from Logger import Logger
 
 # configuration for manager
 default_conf = {
-    "links_file":"conf/manager.links",
+    "links_file":"../conf/manager.links",
     "how_many_links_file":"how-many-links.links",
     "links_to_crawler_NR":100,
     "buffer_output":"yes",
@@ -48,11 +48,13 @@ default_conf = {
 
 logger = Logger()
 
+
 class EmptyPriQueue(Exception):
     """ TODO: when would EmptyPriQueue be raise ? """
 
     def __init__(self, *args):
         super(EmptyPriQueue, self).__init__(*args)
+
 
 class PriQueue:
 
@@ -72,7 +74,7 @@ class PriQueue:
 
         self.dominant_threshold = 20
 
-        self._lock = threading.Lock() #lock with many usages
+        self._lock = threading.Lock()  # lock with many usages
 
     def __len__(self):
         """ return how many links this prioQueue has """
@@ -215,6 +217,7 @@ class PriQueue:
         domain, url_suffix = urllib.parse.splithost(rest)
         return (protocal, domain)
 
+
 class Manager:
     """Core manager """
 
@@ -226,10 +229,10 @@ class Manager:
         self.my_open = uopen if self.conf.get("buffer_output") == "no" else open
         self.links_file = self.conf.get("links_file")
         self.how_many_links_file = self.conf.get("how_many_links_file")
-        #record all the links we have crawled
+        # record all the links we have crawled
         self._links_track = self.my_open(self.how_many_links_file, "w+")
         self._links_track_lock = threading.Lock()   #lock
-        #how many links we send to crawler per request
+        # how many links we send to crawler per request
         self._nsent = self.conf.get("links_to_crawler_NR")
 
         self.ip = ip
@@ -237,7 +240,7 @@ class Manager:
         self.buff_size = buff_size
         self.listen_num = listen_num
 
-        #socket initialization
+        # socket initialization
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.sock.bind((self.ip, self.port))
         self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -245,15 +248,15 @@ class Manager:
 
         _blmftr_record = self.conf.get("blmftr_record")
         _start_fresh = False if self.conf.get("continuous_crawl") == "yes" else True
-        #bloom_filter里面存放已经爬过的链接(或许没有爬成功)
+        # bloom_filter里面存放已经爬过的链接(或许没有爬成功)
         self.bloom_filter = Bloom_filter.Bloom_filter(10000,
                                          0.001,  #error rate
                                          filename=(_blmftr_record, -1),
                                          start_fresh=_start_fresh)
-        self.bf_lock = threading.Lock() #lock to access bloom_filter
+        self.bf_lock = threading.Lock() # lock to access bloom_filter
 
-        self.prio_que = PriQueue(self.links_file)          #manager's priority queue
-        self.prio_que.get_links_from_disk() #initially get links from disk
+        self.prio_que = PriQueue(self.links_file)          # manager's priority queue
+        self.prio_que.get_links_from_disk() # initially get links from disk
         for l in self.prio_que.links:  # add to bloom filter
             self.bloom_filter.add(l)
         self.prio_ful_threshold = self.conf.get("prio_ful_threshold")
@@ -275,8 +278,8 @@ class Manager:
 
         self.search_engine_weed = self.conf.get("search_engine_weed")
 
-        #MACRO,represent whether crawler want to send back links
-        #or get links from here
+        # MACRO,represent whether crawler want to send back links
+        # or get links from here
         self.SEND = 0
         self.REQUEST = 1
         self.ASKFOCUSING = 2
@@ -308,8 +311,8 @@ class Manager:
     def handle_connection(self, conn, addr):
         """ handle connection with some crawler """
 
-        #set timeout for this connection, so failure of one crawler would
-        #not waste resource of the manager
+        # set timeout for this connection, so failure of one crawler would
+        # not waste resource of the manager
         conn.settimeout(60)
 
         method = None

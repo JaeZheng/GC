@@ -19,7 +19,7 @@ from ConfReader import ConfReader
 from Logger import Logger
 from DBUtil import DBHandler
 
-#default configurations for crawler
+# default configurations for crawler
 default_conf = {
     "manager_ip":"127.0.0.1",
     "manager_port":5005,
@@ -37,7 +37,8 @@ default_conf = {
     }
 
 _pause_interval = 1
-_exceeded_try=5
+_exceeded_try = 5
+
 
 class Crawler(object):
     """ The crawler.
@@ -54,7 +55,7 @@ class Crawler(object):
         self.left_ip = self.conf.get("manager_ip")
         self.left_port = self.conf.get("manager_port")
         self._buffer_size_threshold = self.conf.get("buffer_size_threshold")
-        #how many links we should return when the caller call self.get_links()
+        # how many links we should return when the caller call self.get_links()
         self._crawl_NR = self.conf.get("concurrent_crawl_NR")
         self.my_open = uopen if self.conf.get("buffer_output") == "no" else open
         self.content_path = self.conf.get("content_path")
@@ -74,7 +75,8 @@ class Crawler(object):
                        " `page_id` int(20) NOT NULL AUTO_INCREMENT,"
                        " `page_url` varchar(200) BINARY NOT NULL,"
                        " `domain_name` varchar(100) BINARY NOT NULL,"
-                       " `sublinks` text,"
+                       " `inner_links` text,"
+                       " `outer_links` text,"
                        " `title` varchar(1024),"
                        " `normal_content` text,"
                        " `emphasized_content` text,"
@@ -83,11 +85,11 @@ class Crawler(object):
                        " `text` longtext,"
                        " `PR_score` double default 0.0,"
                        " `ad_NR` int default 0,"
-                       " `tag` varchar(20) default null,"
-                       #" `classify_attribute_1` ...
-                       #" `classify_attribute_2` ...
-                       " PRIMARY KEY (`page_id`),"
-                       " INDEX (`page_url`)"
+                       " `tag1` varchar(20) default null,"
+                       " `tag2` varchar(20) default null,"
+                       " `tag3` varchar(20) default null,"
+                       " INDEX (`page_url`),"
+                       " PRIMARY KEY (`page_id`)"
                        ")CHARSET=UTF8, ENGINE=InnoDB" )
         self.db.update("truncate table " + self.crawler_table)
 
@@ -98,7 +100,6 @@ class Crawler(object):
         self.result_sender = NetworkHandler(self.left_ip, self.left_port)
         self.links_requester = NetworkHandler(self.left_ip, self.left_port)
         self.focusing = True  # whether or not the crawling should do focus-crawling
-
 
     def get_links(self):
         """ used to get urls from manager.
@@ -120,13 +121,13 @@ class Crawler(object):
                 (self.focusing, links) = self.links_requester.request()
                 self.logger.info("links_requester succeed request()")
                 if not links:
-                    #return whatever in self._buffer
+                    # return whatever in self._buffer
                     tmp = self._buffer
                     self._buffer = []
                     return tmp
                 else:
                     self._buffer.extend(links)
-                    #make sure that we don't exceed the limit
+                    # make sure that we don't exceed the limit
                     nsent = (self._crawl_NR if self._crawl_NR <= len(self._buffer)
                                             else len(self._buffer))
                     tmp = []
@@ -136,10 +137,10 @@ class Crawler(object):
             except Exception:
                 raise
         else:
-            #make sure that we don't exceed the limit
+            # make sure that we don't exceed the limit
             nsent = (self._crawl_NR if self._crawl_NR <= len(self._buffer)
                                     else len(self._buffer))
-            #we have enough links, so just return
+            # we have enough links, so just return
             tmp = []
             for _ in range(nsent):
                 tmp.append(self._buffer.pop())
@@ -155,36 +156,35 @@ class Crawler(object):
             trytime = trytime + 1
         return page
 
-
     def get_web(self, resolved_url):
         """used to grab a web information and return a Response object."""
 
-        #fake as 'Baidu Spider'. Can also fake as GoogleBot, or YoudaoBot,
-        #but this maybe easily detected due to ip-mismatch
-        #NOTE: According to RFC 7230, HTTP header names are case-INsensitive
+        # fake as 'Baidu Spider'. Can also fake as GoogleBot, or YoudaoBot,
+        # but this maybe easily detected due to ip-mismatch
+        # NOTE: According to RFC 7230, HTTP header names are case-INsensitive
         headers={
                 'Accept':'text/plain, text/html', #want only text
-                #"accept-encoding":"gzip, deflate, sdch",
-                #"accept-language":"en-US,en;q=0.8",
-                #"Cache-Control":"max-age=0",
-                #"Cookie":"timezone=480; I2KBRCK=1; cookiePolicy=accept",
-                #"Host":"www.tandfonline.com",
-                #"Proxy-Connection":"keep-alive",
-                #"Referer":"https://www.tandfonline.com",
-                #"Upgrade-Insecure-Requests":"1",
-                #"User-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36",
+                # "accept-encoding":"gzip, deflate, sdch",
+                # "accept-language":"en-US,en;q=0.8",
+                # "Cache-Control":"max-age=0",
+                # "Cookie":"timezone=480; I2KBRCK=1; cookiePolicy=accept",
+                # "Host":"www.tandfonline.com",
+                # "Proxy-Connection":"keep-alive",
+                # "Referer":"https://www.tandfonline.com",
+                # "Upgrade-Insecure-Requests":"1",
+                # "User-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36",
                 "User-agent":"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
                 }
 
         try:
             response = Crawler.req(resolved_url, headers=headers, timeout=self.crawling_timeout)
             self.logger.info("Get response[%d]: [%s]" % (response.status_code, resolved_url))
-            #check whether we get a plain text response
-            #note that key in `response.headers` is case insensitive
+            # check whether we get a plain text response
+            # note that key in `response.headers` is case insensitive
             if 'content-type' in response.headers:
                 if 'text/' not in response.headers['content-type']:
                     return None
-            if (response.status_code == requests.codes.ok): #200
+            if response.status_code == requests.codes.ok: # 200
                 return response
             else:
                 return None
@@ -196,13 +196,13 @@ class Crawler(object):
         """ main routine of crawler class
             @urls: used to hold the raw urls got from the left.  """
 
-        while (True):
+        while True:
             try:
                 urls = self.get_links()
             except Exception as e:
-                self.logger.info("Cannot get urls. crawler sleep for 10 seconds.\n"
+                self.logger.info("Cannot get urls. Crawler sleep for 10 seconds.\n"
                         "\tException:[%s]\n" % str(e))
-                time.sleep(10) #wait a little bit to see if thing would get better
+                time.sleep(10)  # wait a little bit to see if thing would get better
                 continue
             if not urls:
                 self.logger.info("Empty urls from dns_resolver. Crawler will loop")
@@ -220,7 +220,7 @@ class Crawler(object):
             with ThreadPoolExecutor(self.thread_pool_size) as pool:
                 responses = pool.map(self.get_web, urls)
 
-            #开始处理response，将得到的子内链与源链接组合在一起然后返回
+            # 开始处理response，将得到的子内链与源链接组合在一起然后返回
             for index, resp in enumerate(responses):
                 origin = urls[index]
                 if not resp:
@@ -245,7 +245,7 @@ class Crawler(object):
 
                     # resp.content return 'bytes' object
                     try:
-                        self.dump_content(resp, origin)
+                        self.dump_content(resp, origin, inner_links, outer_links)
                     except Exception as e:
                         self.logger.info(("Exception when dump_content():[%s],"
                                 "url:[%s]") % (str(e), origin))
@@ -275,11 +275,11 @@ class Crawler(object):
         # get the url domain to define the website
         protocal, domain = self.get_protocal_domain(origin_url)
 
-        #useless file pattern (something like xxx.jpg, xxx.mp4, xxx.css, xxx.pdf, etc)
+        # useless file pattern (something like xxx.jpg, xxx.mp4, xxx.css, xxx.pdf, etc)
         uf_pattern = re.compile(r'\.jpg$|\.png|\.xml|\.mp4|\.mp3|\.css|\.pdf|\.svg|\.gz|\.zip|\.rar|\.exe|\.tar')
-        #unsupported protocal pattern(something like ftp://, sftp://, thunders://, etc)
+        # unsupported protocal pattern(something like ftp://, sftp://, thunders://, etc)
         up_pattern = re.compile(r'^.{0,10}:')
-        #we only support http/https protocal
+        # we only support http/https protocal
         sp_pattern = re.compile(r'http://|https://')
 
         outer_link_lists = []
@@ -287,10 +287,10 @@ class Crawler(object):
         for element in links:
             element = element.strip()
             if re.match(sp_pattern, element):  # begin with http/https
-                #first check if this match those useless pattern
+                # first check if this match those useless pattern
                 if re.findall(uf_pattern, element):
                     continue
-                #check whether it's outer link or inner link
+                # check whether it's outer link or inner link
                 test_protocal, test_domain = self.get_protocal_domain(element)
                 if test_domain != domain:
                     outer_link_lists.append(element.strip())
@@ -307,15 +307,15 @@ class Crawler(object):
                     link = protocal + '://' + domain + '/' + element
                 inner_link_lists.append(link.strip())
 
-        return (outer_link_lists, inner_link_lists)
+        return outer_link_lists, inner_link_lists
 
     def trim_url_suffix(self, urls):
         """
         trim those urls with suffix `#xxxxx' or `?xxxx'
         NOTE that ALL URLS PASSED IN MUST BE VALID!!!
         """
-        def _trim_url_suffix(url): #make it reusable
-            #tag link pattern
+        def _trim_url_suffix(url): # make it reusable
+            # tag link pattern
             return url.split('#')[0].split('?')[0]
 
         return list(map(_trim_url_suffix, urls))
@@ -324,9 +324,9 @@ class Crawler(object):
         """ return protocal and domain """
         protocal, rest = urllib.parse.splittype(url)
         domain, url_suffix = urllib.parse.splithost(rest)
-        return (protocal, domain)
+        return protocal, domain
 
-    def dump_content(self, resp, origin_url):
+    def dump_content(self, resp, origin_url, inner_links, outer_links):
         """ requests cannot detect web page encoding automatically(FUCK!).
             response.encoding is from the html reponse header. If we want to
             convert all the content we want to utf8, we have to use `get_encodings_from_content; """
@@ -337,7 +337,7 @@ class Crawler(object):
         # Response header provide no info about encoding, then requests would
         # default to 'ISO-8859-1'. But most of the time we can detect the
         # encoding in html page content
-        if(resp.encoding == 'ISO-8859-1' and not 'ISO-8859-1' in resp.headers.get('Content-Type', '')):
+        if resp.encoding == 'ISO-8859-1' and not 'ISO-8859-1' in resp.headers.get('Content-Type', ''):
             try:
                 real_encoding = requests.utils.get_encodings_from_content(resp.text)[0]
                 text = resp.content.decode(real_encoding, 'ignore')
@@ -359,24 +359,26 @@ class Crawler(object):
 
         # requests的请求会出现重定向。比如
         #       http://bbs.people.com.cn/
-        #会被重定向到
+        # 会被重定向到
         #       http://bbs1.people.com.cn/
-        #因此如果我们取 resp.url 作为爬取的 url 的话
-        #会导致最终数据库中看到 url 重复。因此这里我
-        #我们取传进来的origin_url (bbs, NOT bss1)
+        # 因此如果我们取 resp.url 作为爬取的 url 的话
+        # 会导致最终数据库中看到 url 重复。因此这里我
+        # 我们取传进来的origin_url (bbs, NOT bss1)
         #
-        #page_url = bytes(resp.url, 'utf-8')
+        # page_url = bytes(resp.url, 'utf-8')
         page_url = origin_url
 
         _, domain_name = self.get_protocal_domain(resp.url)
         domain_name = bytes(domain_name, 'utf-8')
         titles = re.findall(rb'<title>(.*?)</title>', utf8_text)
         title = titles[0] if titles else b''
+        inner_links = ";".join(inner_links)
+        outer_links = ";".join(outer_links)
 
         self.db.update("INSERT INTO " + self.crawler_table + "(`page_url`, `domain_name`,"
-                "`title`, `text`, `keywords`, `description`) "
-                "VALUES (%s, %s, %s, %s, %s, %s);",
-                (page_url, domain_name, title, utf8_text, kw, desc))
+                "`inner_links`,`outer_links`,`title`, `text`, `keywords`, `description`) "
+                "VALUES (%s, %s, %s, %s, %s, %s, %s, %s);",
+                (page_url, domain_name, inner_links, outer_links, title, utf8_text, kw, desc))
 
 if __name__ == "__main__":
     crawler = Crawler()
